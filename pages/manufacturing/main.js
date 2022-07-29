@@ -9,7 +9,7 @@ export default function Bom(bom){
                             <div className="md:w-1/2 lg:w-2/3 w-full xl:pr-20 md:pr-6">
                                 <div className=" text-color">
                                     <div className="flex flex-row">
-                                    <img src="/receipt.gif" className="w-20 h-20" />
+                                    <Image alt="" width="200" height="200"  src="/receipt.gif" className="w-20 h-20"></Image>
                                     <h1 className="text-2xl lg:text-3xl font-bold uppercase mt-6">Bill of material (BOM)</h1>
                                     </div>
                                     <h2 className="text-md lg:text-lg py-4 md:py-8">A bill of material is at the heart of any cloud manufacturing software, and a well-defined BOM ensures robustness and accuracy. ERPNext's BOM is hierarchical, with the finished product at the top. It also includes product codes, part descriptions, quantities, costs and additional specifications.</h2>
@@ -24,11 +24,11 @@ export default function Bom(bom){
                                 </div>
                             </div>
                             <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center border-4">
-                                <img className="absolute w-full h-full inset-0  rounded-md" src="/bill-of-materials.png" alt />
+                                <Image alt="" width="200" height="200"  className="absolute w-full h-full inset-0  rounded-md" src="/bill-of-materials.png"></Image>
                                 <div className="relative z-10 bg-white rounded h-40 p-6 w-52 border-4 -mb-20">
                                     <div className="flex items-center justify-between w-full sm:w-full mb-8">
                                         <div className="flex items-center">
-                                        <img className="absolute w-full h-full inset-0 rounded-md" src="/bill-of-materials (4).jpg" alt />
+                                        <Image alt="" width="200" height="200"  className="absolute w-full h-full inset-0 rounded-md" src="/bill-of-materials (4).jpg"></Image>
                                  </div>
                                   </div>
                                         <div>
@@ -47,7 +47,7 @@ export default function Bom(bom){
                         </p>
                     </div>
                     <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
-                        <img src="https://i.ibb.co/J2BtZdg/Rectangle-56-1.png" alt="" />
+                        <Image alt="" width="200" height="200"  src="https://i.ibb.co/J2BtZdg/Rectangle-56-1.png"></Image>
                     </div>
                 </div>
                 <div className="md:w-4/12 lg:w-5/12 xl:w-4/12 2xl:w-3/12 bg-gray-50 py-6 px-6 md:py-0 md:px-4 lg:px-6 flex flex-col justify-center relative">
@@ -58,7 +58,7 @@ export default function Bom(bom){
                         </p>
                     </div>
                     <div className="flex justify-end md:absolute md:bottom-4 md:right-4 lg:bottom-0 lg:right-0">
-                        <img src="https://i.ibb.co/rGfP7mp/Rectangle-59-1.png" alt="" className="md:w-20 md:h-20 lg:w-full lg:h-full" />
+                        <Image alt="" width="200" height="200"  src="https://i.ibb.co/rGfP7mp/Rectangle-59-1.png" className="md:w-20 md:h-20 lg:w-full lg:h-full"></Image>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@ export default function Bom(bom){
                             <div className="md:w-1/2 lg:w-2/3 w-full lg:pl-20 md:pl-10 sm:pl-0 pl-0">
                                 <div className="py-2 text-color">
                                 <div className="flex flex-row">
-                                    <img src="/warehouse.gif" className="w-20 h-20" />
+                                    <Image alt="" width="200" height="200"  src="/warehouse.gif" className="w-20 h-20" />
                                     <h1 className="text-2xl lg:text-3xl font-bold uppercase mt-6"> shop floor management</h1>
                                     </div>
                                     <h2 className="text-md lg:text-lg py-8">Here at Globex we take special care of what your organization needs instead of selling you a mass market tool that takes a one size fits all approach. I personally review each and every client business and oversee the team that tailores a solution</h2>
@@ -84,10 +84,10 @@ export default function Bom(bom){
                                 </div>
                             </div>
                             <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center border-4">
-                                <img className="absolute w-full h-full inset-0 rounded-md" src="/shopfloor-management39c837.png" alt />
+                                <Image alt="" width="200" height="200"  className="absolute w-full h-full inset-0 rounded-md" src="/shopfloor-management39c837.png"></Image>
                                 <div className="relative z-10 p-4 bg-white  rounded mx-auto h-52 border-4 w-9/12 -mb-20">
                                      <div className="mt-4 flex items-center">
-                                    <img className="absolute w-full h-full inset-0 rounded-md" src="/bill-of-materials (4).jpg" alt />
+                                    <Image alt="" width="200" height="200"  className="absolute w-full h-full inset-0 rounded-md" src="/bill-of-materials (4).jpg"></Image>
                               
                                        </div>
                                 </div>
@@ -103,7 +103,7 @@ export default function Bom(bom){
                             <div className="md:w-1/2 lg:w-2/3 w-full xl:pr-20 md:pr-6">
                                 <div className=" text-color">
                                     <div className="flex flex-row -ml-8">
-                                    <img src="/receipt.gif" className="w-20 h-20" />
+                                    <Image alt="" width="200" height="200"  src="/receipt.gif" className="w-20 h-20" />
                                     <h1 className="text-2xl lg:text-3xl font-bold uppercase mt-6">Subcontracting</h1>
                                     </div>
                                     <h2 className="text-md lg:text-lg py-4 md:py-8">Does your business involve outsourcing processes to a supplier? Check out the subcontracting feature in ERPNext. It makes it easy to supply raw materials and track suppliers' labor and operations. Finished goods are valued based on the cost of raw materials and procured services.</h2>
@@ -118,11 +118,11 @@ export default function Bom(bom){
                                 </div>
                             </div>
                             <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center border-4">
-                                <img className="absolute w-full h-full inset-0  rounded-md" src="https://erpnext.com/files/subcontracting-stock-entry.png" alt />
+                                <Image alt="" width="200" height="200"  className="absolute w-full h-full inset-0  rounded-md" src="https://erpnext.com/files/subcontracting-stock-entry.png"></Image>
                                 <div className="relative z-10 bg-white rounded h-40 p-6 w-52 border-4 -mb-20">
                                     <div className="flex items-center justify-between w-full sm:w-full mb-8">
                                         <div className="flex items-center">
-                                        <img className="absolute w-full h-full inset-0 rounded-md" src="https://erpnext.com/files/subcontracting-stock-entry.png" alt />
+                                        <Image alt="" width="200" height="200"  className="absolute w-full h-full inset-0 rounded-md" src="https://erpnext.com/files/subcontracting-stock-entry.png"></Image>
                                  </div>
                                   </div>
                                         <div>
@@ -141,7 +141,7 @@ export default function Bom(bom){
                         </p>
                     </div>
                     <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
-                        <img src="https://i.ibb.co/J2BtZdg/Rectangle-56-1.png" alt="" />
+                        <Image alt="" width="200" height="200"  src="https://i.ibb.co/J2BtZdg/Rectangle-56-1.png"></Image>
                     </div>
                 </div>
                 <div className="md:w-4/12 lg:w-5/12 xl:w-4/12 2xl:w-3/12 bg-gray-50 py-6 px-6 md:py-0 md:px-4 lg:px-6 flex flex-col justify-center relative">
@@ -152,7 +152,7 @@ export default function Bom(bom){
                         </p>
                     </div>
                     <div className="flex justify-end md:absolute md:bottom-4 md:right-4 lg:bottom-0 lg:right-0">
-                        <img src="https://i.ibb.co/rGfP7mp/Rectangle-59-1.png" alt="" className="md:w-20 md:h-20 lg:w-full lg:h-full" />
+                        <Image alt="" width="200" height="200"  src="https://i.ibb.co/rGfP7mp/Rectangle-59-1.png" className="md:w-20 md:h-20 lg:w-full lg:h-full"></Image>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@ export default function Bom(bom){
                             <div className="md:w-1/2 lg:w-2/3 w-full lg:pl-20 md:pl-10 sm:pl-0 pl-0">
                                 <div className="py-2 text-color">
                                 <div className="flex flex-row">
-                                    <img src="/warehouse.gif" className="w-20 h-20" />
+                                    <Image alt="" width="200" height="200"  src="/warehouse.gif" className="w-20 h-20" />
                                     <h1 className="text-2xl lg:text-3xl font-bold uppercase mt-6">Item variants</h1>
                                     </div>
                                     <h2 className="text-md lg:text-lg py-8">Suppose you produce t-shirts in different sizes and colors. You'll need to track each type of t-shirt and its variants, known as item variants. In ERPNext, the primary item is stored as an item template, and each of the variations is stored as an item variant. You can store any attribute, such as color or shape, for each item variant.</h2>
@@ -178,10 +178,10 @@ export default function Bom(bom){
                                 </div>
                             </div>
                             <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center border-4">
-                                <img className="absolute w-full h-full inset-0 rounded-md" src="https://erpnext.com/files/item-variants.png" alt />
+                                <Image alt="" width="200" height="200"  className="absolute w-full h-full inset-0 rounded-md" src="https://erpnext.com/files/item-variants.png"></Image>
                                 <div className="relative z-10 p-4 bg-white  rounded mx-auto h-52 border-4 w-9/12 -mb-20">
                                      <div className="mt-4 flex items-center">
-                                    <img className="absolute w-full h-full inset-0 rounded-md" src="https://erpnext.com/files/item-variants.png" alt />
+                                    <Image alt="" width="200" height="200"  className="absolute w-full h-full inset-0 rounded-md" src="https://erpnext.com/files/item-variants.png"></Image>
                               
                                        </div>
                                 </div>

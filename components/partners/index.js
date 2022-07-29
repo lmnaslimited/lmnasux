@@ -11,7 +11,7 @@ export default function Partner({partner}) {
         <div className="col-span-2 border-b-2 py-8 ">
         <div className="md:w-full md:h-full lg:p-4 xl:p-0">
         <p className="leading-relaxed text-md text-center">
-           "Team LMNAs have built custom pre-sales enquiry and offer management solution for us, now we are 45% more efficient interms of offer closure"
+           Team LMNAs have built custom pre-sales enquiry and offer management solution for us, now we are 45% more efficient interms of offer closure
           </p> 
           </div>
         </div>
@@ -20,22 +20,22 @@ export default function Partner({partner}) {
         <div className="col-span-1">
         <div className="flex flex-col md:flex-row">
          <div className="w-32 h-32 rounded-full">
-        <img src="/testimonials/kaykaribasket-548x455.png"/>
+        <Image alt="" width="150" height="150" src="/testimonials/kaykaribasket-548x455.png"/>
         </div>
         <div className="text-left w-full h-1/2 rounded-lg shadow-lg flex flex-col -mt-12 md:-mt-0 p-2">
           <h1 className="font-bold">KAYKARI BASKET</h1>
-          <p className="mt-4 text-left">"This is exactly what we were looking for. The web design was cutting-edge and freaking cool! Thanks for the services"</p>
+          <p className="mt-4 text-left">This is exactly what we were looking for. The web design was cutting-edge and freaking cool! Thanks for the services</p>
           </div>
         </div>
         </div>
         <div className="col-span-1">
         <div className="flex flex-col md:flex-row">
          <div className="w-32 h-32 rounded-full">
-        <img src="/testimonials/sgb-548x455.png"/>
+        <Image alt="" width="150" height="150" src="/testimonials/sgb-548x455.png"/>
         </div>
         <div className="w-full h-1/2 rounded-lg shadow-lg flex flex-col -mt-12 md:-mt-0 p-2">
           <h1 className="text-center font-bold">KAYKARI BASKET</h1>
-          <p className="mt-4 text-center">"This is exactly what we were looking for. The web design was cutting-edge and freaking cool! Thanks for the services"</p>
+          <p className="mt-4 text-center">This is exactly what we were looking for. The web design was cutting-edge and freaking cool! Thanks for the services</p>
         
         </div>
         </div>
@@ -43,11 +43,11 @@ export default function Partner({partner}) {
         <div className="col-span-1">
         <div className="flex flex-col md:flex-row">
          <div className="w-32 h-32 rounded-full">
-        <img src="/testimonials/styleadvisor-548x455.png"/>
+        <Image alt="" width="150" height="150" src="/testimonials/styleadvisor-548x455.png"/>
         </div>
         <div className="w-full h-1/2 rounded-lg shadow-lg flex flex-col -mt-12 md:-mt-0 p-2">
           <h1 className="text-center font-bold">KAYKARI BASKET</h1>
-          <p className="mt-4 text-center">"This is exactly what we were looking for. The web design was cutting-edge and freaking cool! Thanks for the services"</p>
+          <p className="mt-4 text-center">This is exactly what we were looking for. The web design was cutting-edge and freaking cool! Thanks for the services</p>
         </div>
         </div>
         </div>
