@@ -16,9 +16,7 @@ export default function Bom(bom){
                                     <div className="flex items-center cursor-pointer pb-4 md:pb-0">
                                         <h3 className="f-f-r text-lg lg:text-2xl font-semibold underline text-purple-700">Lets Get Started</h3>
                                         <div className="pl-2">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-                                                <path d="M13.1719 12L8.22192 7.04999L9.63592 5.63599L15.9999 12L9.63592 18.364L8.22192 16.95L13.1719 12Z" fill="#D53F8C" />
-                                            </svg>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -47,8 +45,7 @@ export default function Bom(bom){
                         </p>
                     </div>
                     <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
-                        <Image alt="" width="200" height="200"  src="https://i.ibb.co/J2BtZdg/Rectangle-56-1.png"></Image>
-                    </div>
+                           </div>
                 </div>
                 <div className="md:w-4/12 lg:w-5/12 xl:w-4/12 2xl:w-3/12 bg-gray-50 py-6 px-6 md:py-0 md:px-4 lg:px-6 flex flex-col justify-center relative">
                     <div className="flex flex-col justify-center">
@@ -58,8 +55,7 @@ export default function Bom(bom){
                         </p>
                     </div>
                     <div className="flex justify-end md:absolute md:bottom-4 md:right-4 lg:bottom-0 lg:right-0">
-                        <Image alt="" width="200" height="200"  src="https://i.ibb.co/rGfP7mp/Rectangle-59-1.png" className="md:w-20 md:h-20 lg:w-full lg:h-full"></Image>
-                    </div>
+                      </div>
                 </div>
             </div>
         </div>
@@ -118,12 +114,10 @@ export default function Bom(bom){
                                 </div>
                             </div>
                             <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center border-4">
-                                <Image alt="" width="200" height="200"  className="absolute w-full h-full inset-0  rounded-md" src="https://erpnext.com/files/subcontracting-stock-entry.png"></Image>
                                 <div className="relative z-10 bg-white rounded h-40 p-6 w-52 border-4 -mb-20">
                                     <div className="flex items-center justify-between w-full sm:w-full mb-8">
                                         <div className="flex items-center">
-                                        <Image alt="" width="200" height="200"  className="absolute w-full h-full inset-0 rounded-md" src="https://erpnext.com/files/subcontracting-stock-entry.png"></Image>
-                                 </div>
+                                         </div>
                                   </div>
                                         <div>
                                     </div></div>
@@ -141,8 +135,7 @@ export default function Bom(bom){
                         </p>
                     </div>
                     <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
-                        <Image alt="" width="200" height="200"  src="https://i.ibb.co/J2BtZdg/Rectangle-56-1.png"></Image>
-                    </div>
+                        </div>
                 </div>
                 <div className="md:w-4/12 lg:w-5/12 xl:w-4/12 2xl:w-3/12 bg-gray-50 py-6 px-6 md:py-0 md:px-4 lg:px-6 flex flex-col justify-center relative">
                     <div className="flex flex-col justify-center">
@@ -152,8 +145,7 @@ export default function Bom(bom){
                         </p>
                     </div>
                     <div className="flex justify-end md:absolute md:bottom-4 md:right-4 lg:bottom-0 lg:right-0">
-                        <Image alt="" width="200" height="200"  src="https://i.ibb.co/rGfP7mp/Rectangle-59-1.png" className="md:w-20 md:h-20 lg:w-full lg:h-full"></Image>
-                    </div>
+                       </div>
                 </div>
             </div>
         </div>
@@ -178,11 +170,9 @@ export default function Bom(bom){
                                 </div>
                             </div>
                             <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center border-4">
-                                <Image alt="" width="200" height="200"  className="absolute w-full h-full inset-0 rounded-md" src="https://erpnext.com/files/item-variants.png"></Image>
                                 <div className="relative z-10 p-4 bg-white  rounded mx-auto h-52 border-4 w-9/12 -mb-20">
                                      <div className="mt-4 flex items-center">
-                                    <Image alt="" width="200" height="200"  className="absolute w-full h-full inset-0 rounded-md" src="https://erpnext.com/files/item-variants.png"></Image>
-                              
+                                   
                                        </div>
                                 </div>
                             </div>
