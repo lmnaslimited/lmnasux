@@ -12,7 +12,7 @@ export default function Bom(bom){
                                     <Image alt="" width="200" height="200"  src="/receipt.gif" className="w-20 h-20"></Image>
                                     <h1 className="text-2xl lg:text-3xl font-bold uppercase mt-6">Bill of material (BOM)</h1>
                                     </div>
-                                    <h2 className="text-md lg:text-lg py-4 md:py-8">A bill of material is at the heart of any cloud manufacturing software, and a well-defined BOM ensures robustness and accuracy. ERPNext's BOM is hierarchical, with the finished product at the top. It also includes product codes, part descriptions, quantities, costs and additional specifications.</h2>
+                                    <h2 className="text-md lg:text-lg py-4 md:py-8">A bill of material is at the heart of any cloud manufacturing software, and a well-defined BOM ensures robustness and accuracy. ERPNexts BOM is hierarchical, with the finished product at the top. It also includes product codes, part descriptions, quantities, costs and additional specifications.</h2>
                                     <div className="flex items-center cursor-pointer pb-4 md:pb-0">
                                         <h3 className="f-f-r text-lg lg:text-2xl font-semibold underline text-purple-700">Lets Get Started</h3>
                                         <div className="pl-2">
@@ -106,7 +106,7 @@ export default function Bom(bom){
                                     <Image alt="" width="200" height="200"  src="/receipt.gif" className="w-20 h-20" />
                                     <h1 className="text-2xl lg:text-3xl font-bold uppercase mt-6">Subcontracting</h1>
                                     </div>
-                                    <h2 className="text-md lg:text-lg py-4 md:py-8">Does your business involve outsourcing processes to a supplier? Check out the subcontracting feature in ERPNext. It makes it easy to supply raw materials and track suppliers' labor and operations. Finished goods are valued based on the cost of raw materials and procured services.</h2>
+                                    <h2 className="text-md lg:text-lg py-4 md:py-8">Does your business involve outsourcing processes to a supplier? Check out the subcontracting feature in ERPNext. It makes it easy to supply raw materials and track suppliers labor and operations. Finished goods are valued based on the cost of raw materials and procured services.</h2>
                                     <div className="flex items-center cursor-pointer pb-4 md:pb-0">
                                         <h3 className="f-f-r text-lg lg:text-2xl font-semibold underline text-purple-700">Lets Get Started</h3>
                                         <div className="pl-2">
@@ -166,7 +166,7 @@ export default function Bom(bom){
                                     <Image alt="" width="200" height="200"  src="/warehouse.gif" className="w-20 h-20" />
                                     <h1 className="text-2xl lg:text-3xl font-bold uppercase mt-6">Item variants</h1>
                                     </div>
-                                    <h2 className="text-md lg:text-lg py-8">Suppose you produce t-shirts in different sizes and colors. You'll need to track each type of t-shirt and its variants, known as item variants. In ERPNext, the primary item is stored as an item template, and each of the variations is stored as an item variant. You can store any attribute, such as color or shape, for each item variant.</h2>
+                                    <h2 className="text-md lg:text-lg py-8">Suppose you produce t-shirts in different sizes and colors. Youll need to track each type of t-shirt and its variants, known as item variants. In ERPNext, the primary item is stored as an item template, and each of the variations is stored as an item variant. You can store any attribute, such as color or shape, for each item variant.</h2>
                                     <div className="flex items-center cursor-pointer pb-4 md:pb-0">
                                         <h3 className="f-f-r text-lg lg:text-2xl font-semibold underline text-indigo-700">Lets Get Started</h3>
                                         <div className="pl-2">
