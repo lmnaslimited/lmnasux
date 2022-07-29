@@ -23,7 +23,7 @@ export default function Partner({partner}) {
         <Image alt="" width="200" height="180" src="/testimonials/kaykaribasket-548x455.png"/>
         </div>
         <div className=" w-full h-1/2 rounded-lg shadow-lg flex flex-col -mt-8 md:-mt-0 p-2">
-          <h1 className="text-leftfont-bold">KAYKARI BASKET</h1>
+          <h1 className="text-left text-lg font-bold">KAYKARI BASKET</h1>
           <p className="mt-4 text-left"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-.464 5.535a1 1 0 10-1.415-1.414 3 3 0 01-4.242 0 1 1 0 00-1.415 1.414 5 5 0 007.072 0z" clipRule="evenodd" />
 </svg>This is exactly what we were looking for. The web design was cutting-edge and freaking cool! Thanks for the services<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
@@ -37,10 +37,10 @@ export default function Partner({partner}) {
         <div className="col-span-1">
         <div className="flex flex-col md:flex-row">
          <div className="w-32 h-32 rounded-full">
-        <Image alt="" width="200" height="180" src="/testimonials/sgb-548x455.png"/>
+        <Image alt="" width="240" height="180" src="/testimonials/sgb-548x455.png"/>
         </div>
         <div className="w-full h-1/2 rounded-lg shadow-lg flex flex-col -mt-8 md:-mt-0 p-2">
-          <h1 className="text-left font-bold">KAYKARI BASKET</h1>
+          <h1 className="text-left text-lg font-bold">KAYKARI BASKET</h1>
           <p className="mt-4 text-left"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-.464 5.535a1 1 0 10-1.415-1.414 3 3 0 01-4.242 0 1 1 0 00-1.415 1.414 5 5 0 007.072 0z" clipRule="evenodd" />
 </svg>This is exactly what we were looking for. The web design was cutting-edge and freaking cool! Thanks for the services<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
@@ -57,7 +57,7 @@ export default function Partner({partner}) {
         <Image alt="" width="200" height="180" src="/testimonials/styleadvisor-548x455.png"/>
         </div>
         <div className="w-full h-1/2 rounded-lg shadow-lg flex flex-col -mt-8 md:-mt-0 p-2">
-          <h1 className="text-left font-bold">KAYKARI BASKET</h1>
+          <h1 className="text-left text-lg font-bold">KAYKARI BASKET</h1>
           <p className="mt-4 text-left"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-.464 5.535a1 1 0 10-1.415-1.414 3 3 0 01-4.242 0 1 1 0 00-1.415 1.414 5 5 0 007.072 0z" clipRule="evenodd" />
 </svg>This is exactly what we were looking for. The web design was cutting-edge and freaking cool! Thanks for the services<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline text-yellow-400" viewBox="0 0 20 20" fill="currentColor">

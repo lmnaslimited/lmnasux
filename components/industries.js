@@ -34,7 +34,7 @@ export default function Industries({industries}) {
                     We help ecommerce businesses grow their revenue 
                     </p>
                 </div>
-                <Link passHref="/manufacturing/manufacturing"><div>
+                <Link href="/manufacturing/manufacturing"><div>
                     <button className="text-md border-2 text-purple-500  font-semibold  px-4 py-1 mt-2">Explore</button>
                 </div></Link>
                 </div>
