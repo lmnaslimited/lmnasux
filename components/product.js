@@ -1,43 +1,39 @@
 import Image from "next/image"
-export default function Product({product}) {
+import Container from "./container"
+export default function products({products}) {
     return (
-        <section className="lg:bg-gradient-to-r from-pink-50 via-white to-white bg-gradient-to-b from-pink-50 via-white to-white lg:mx-24 my-24">
+        <Container>
+        <section className="lg:bg-gradient-to-r from-pink-50 via-white to-white bg-gradient-to-b from-pink-50 via-white to-white my-24 ">
         <div className="items-center lg:mt-12 not-sr-only lg:sr-only">
-        <h1  className="text-2xl text-center md:text-3xl font-bold md:font-sans pt-12 md:pt-0 md:mt-12 md:ml-12 lg:ml-12 text-center text-white text-gray-800 antialiased">PRODUCTS</h1>
+        <h1  className="text-2xl text-center md:text-3xl font-bold md:font-sans md:pt-0 md:mt-12 lg:ml-12 text-center text-white text-gray-800 antialiased uppercase">products</h1>
         </div>
         <div className="grid grid-rows-3 grid-cols-1 md:grid-rows-2 md:grid-cols-2 lg:grid-rows-2 lg:grid-cols-3 gap-1 ">
          <div className="lg:row-span-2 lg:col-span-1 lg:row-start-1 lg:col-start-1 lg:bg-pink-50 sr-only lg:not-sr-only">
-         <div className="xl:w-full xl:h-full md:w-full lg:w-3/4 md:h-3/4 ">
-        <div className="md:flex md:flex-col md:w-full md:h-full space-y-2">
-        <div className="xl:ml-24 xl:mt-28 lg:ml-12 lg:mt-12 lg:p-4 xl:p-0">
-        <h1  className="text-lg md:text-3xl text-left md:font-bold md:font-sans md:mt-10  text-white md:text-gray-800 xl:-ml-4 lg:-ml-4 antialiased">PRODUCTS</h1>
-        </div>
-        <div className="md:w-full md:h-full lg:p-4 lg:ml-6 xl:-ml-2 xl:p-0">
+        <div className="container justify-center px-4">
+        <h1  className="text-3xl font-bold md:font-sans text-center text-gray-800 antialiased uppercase mt-32">products</h1>
         <p className="leading-relaxed text-md lg:text-center text-gray-800">
            "Team LMNAs have built custom pre-sales enquiry and offer management solution for us, now we are 45% more efficient interms of offer closure"
           </p> 
           </div>
-        </div> 
-        </div> 
         </div>   
          <div className="row-span-1 col-span-1 md:col-span-2 row-start-1 md:col-start-1 lg:col-start-2 md:border-b-2 lg:mt-1 md:mt-12 bg-white">
-         <div className="flex flex-row">
-         <div className=" mt-10">
+         <div className="flex flex-row md:w-1/2 ">
+         <div className=" mt-10 ">
                 <Image width="160" height="160" src="/presentation.gif" />
             </div>
-            <div className="flex flex-col mt-12 p-2">
+            <div className="flex flex-col mt-12 p-2 w-full md:w-auto">
                 <div>
-                    <h1 className="text-lg font-bold font-sans text-gray-800 ">
+                    <h1 className="text-lg font-bold font-sans text-gray-800 ml-4">
                        ERP
                     </h1>
                 </div>
                 <div>
-                    <p className="text-md font-normal font-sans text-gray-800 ">
+                    <p className="text-md font-normal font-sans text-gray-800 ml-4">
                     We help ecommerce businesses grow their revenue 
                     </p>
                 </div>
                 <div>
-                    <button className="text-md border-2 text-purple-500 px-4 py-1 mt-2">Explore</button>
+                    <button className="text-md border-2 text-purple-500 px-4 py-1 mt-2 ml-4">Explore</button>
                 </div>
                 </div>
                 </div>
@@ -47,7 +43,7 @@ export default function Product({product}) {
          <div className=" mt-10">
                 <Image width="160" height="160" src="/shopping-cart.gif" />
             </div>
-            <div className="flex flex-col mt-12 p-2">
+            <div className="flex flex-col mt-12 p-2 w-full md:w-auto">
                 <div>
                     <h1 className="text-lg font-bold font-sans text-gray-800 ml-4">
                        E-COMMERCE
@@ -65,19 +61,19 @@ export default function Product({product}) {
                 </div>
         </div>
         <div className="row-span-1 col-span-1 row-start-3 col-start-1 md:row-start-2 md:col-start-2 lg:col-start-3 w-full md:border-l-2">
-         <div className="flex flex-row md:ml-2">
+        <div className="flex flex-row">
          <div className=" mt-10">
                 <Image width="160" height="160" src="/tv.gif" />
             </div>
-            <div className="flex flex-col mt-12 p-2">
+            <div className="flex flex-col mt-12 p-2 w-full md:w-auto">
                 <div>
                     <h1 className="text-lg font-bold font-sans text-gray-800 ml-4">
-                       DIGITAL MARKETING
+                      DIGITAL MARKETING
                     </h1>
                 </div>
                 <div>
-                    <p className="text-md text-gray-800 ml-4">
-                    We help businesses Scaling & Maintaining Growth Systems.
+                    <p className="text-md font-normal font-sans text-gray-800 ml-4">
+                    We help ecommerce businesses grow their revenue 
                     </p>
                 </div>
                 <div>
@@ -186,5 +182,6 @@ export default function Product({product}) {
   </div>
      </div>*/} 
       </section>    
+      </Container>
     )   
 }

@@ -8,65 +8,60 @@ import Logo from "./logo";
 import ToggleMobileMenu from "./toggleMobileMenu";
 import AppContext from '../../context/appContext';
 import Container from "../container";
-
 const industries = ['Retail', 'Education', 'Healthcare', 'Distribution', 'Manufacturing', 'Agriculture']
 
 
 const Navbar = ({ categories }) => {
-  //const cat = categories.map((category) => { return category.name })
   const menuItems = BuildMenu({ categories })
   const [mounted, setMounted] = useState(false);
   // When mounted on client, now we can show the UI
   useEffect(() => setMounted(true), []);
   const appContext = useContext(AppContext);
   if (!mounted) return null;
-  return (<div className=" h-12">
+  return (<div>
     <Container>
-      <nav className="mx-auto flex items-center justify-between flex-wrap py-6">
-        <Logo />
-        {/**Handle Hamburger toggle and set the displayMobileMenu AppContext */}
-        <ToggleMobileMenu />
-        <div className={"w-full block flex-grow lg:flex lg:items-center lg:w-auto " + (appContext.displayMobileMenu ? " hidden" : null)}>
-          <MenuList menuItems={menuItems} />
-          {/**To be replaced with Typesense Search */}
-          {/** <Search /> */}
-          <div className="flex items-center flex-wrap lg:flex justify-between flex-row-reverse lg:flex-row">
-            <div className="mt-4 lg:mt-0">
-              <SunMoon />
-            </div>
-            {/** <Login /> */}
+    <nav className="mx-auto flex items-center justify-between flex-wrap py-6">
+      <Logo />
+      {/**Handle Hamburger toggle and set the display MobileMenu AppContext */}
+      <ToggleMobileMenu />
+      <div className={"w-full block flex-grow lg:flex  lg:items-center lg:w-auto " + (appContext.displayMobileMenu ? " hidden" : null)}>
+        <MenuList menuItems={menuItems} />
+        {/**To be replaced with Typesense Search 
+        <Search />*/}
+        <div className="flex items-center justify-between flex-row-reverse lg:flex-row">
+          <div className="mt-4 lg:mt-0">
+            <SunMoon />
           </div>
+         {/**  <Login />*/}
         </div>
-      </nav>
+      </div>
+    </nav>
     </Container>
   </div>
   )
 }
 
 export default Navbar
+
 function BuildMenu({ categories }) {
-  // const cat = categories.map((category) => { return category.name })
+  //const cat = categories.map((category) => { return {name: category.name, slug: category.slug}  })
   return [
-    { menu: 'Home',
-      href: '/'},
-    { menu: 'About',
-      href: 'about'},
-    { menu: 'Services',
-      href: '/#services' },
     {
-      menu: 'Technology',
-      href: '/#technology'
+      menu: 'Industries',
+      target: 'https://lmnas.com/#industries'
     },
     {
-      menu: 'Clients',
-      href: '/#clients'
-      // Uncomment below code to enable submenus
-      //    subMenus: [...cat]
-    }, 
+      menu: 'Pricing',
+      target: 'https://lmnas.com/#pricing'
+    },
+
     {
       menu: 'Contact',
-      href: '/contact'
+      target: 'https://lmnas.com/contact'
     },
-    //{ menu: 'Contact' }, { menu: 'Subscriptions' }
+    {
+      menu: 'Subscriptions',
+      target: 'https://nectar.lmnas.com/all-products'
+    }
   ]
 }

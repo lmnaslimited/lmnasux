@@ -1,63 +1,60 @@
-import React from "react";
-export default function Partner({Partner}) {
-  return(
-<section class="my-24 border-2">
-         <h1 className="text-xl text-gray-800 font-bold bg-white text-center not-sr-only md:sr-only">TESTIMONIALS</h1>
-          <div className="md:-mt-6 md:w-1/4 md:ml-96 items-center sr-only md:not-sr-only "><button className="text-3xl md:-ml-24 lg:-ml-10 xl:ml-20 2xl:ml-48 bg-white font-bold text-center">TESTIMONIALS</button></div>
+import Image from "next/image"
+import Container from "../container"
+import Link from "next/link"
+export default function Partner({partner}) {
+    return (
+    <Container>
+      <section className="text-gray-800 my-24 border-2">
+       <h1 className="text-xl text-gray-800 font-bold bg-white text-center not-sr-only md:sr-only">TESTIMONIALS</h1>
+          <div className="md:-mt-6 text-center items-center sr-only md:not-sr-only "><button className="text-3xl bg-white font-bold justify-center text-center">TESTIMONIALS</button></div>
+        <div className="grid grid-cols-2 gap-4 ">
+        <div className="col-span-2 border-b-2 py-8 ">
+        <div className="md:w-full md:h-full lg:p-4 xl:p-0">
+        <p className="leading-relaxed text-md text-center">
+           "Team LMNAs have built custom pre-sales enquiry and offer management solution for us, now we are 45% more efficient interms of offer closure"
+          </p> 
+          </div>
+        </div>
+        <div className="col-span-2 p-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div className="col-span-1">
+        <div className="flex flex-col md:flex-row">
+         <div className="w-32 h-32 rounded-full">
+        <img src="/kbtestimon1-1-removebg-preview.png"/>
+        </div>
+        <div className="text-left w-full h-1/2 rounded-lg shadow-lg flex flex-col -mt-12 md:-mt-0 p-2">
+          <h1 className="font-bold">KAYKARI BASKET</h1>
+          <p className="mt-4 text-left">"This is exactly what we were looking for. The web design was cutting-edge and freaking cool! Thanks for the services"</p>
+          </div>
+        </div>
+        </div>
+        <div className="col-span-1">
+        <div className="flex flex-col md:flex-row">
+         <div className="w-32 h-32 rounded-full">
+        <img src="/kbtestimon1-1-removebg-preview.png"/>
+        </div>
+        <div className="w-full h-1/2 rounded-lg shadow-lg flex flex-col -mt-12 md:-mt-0 p-2">
+          <h1 className="text-center font-bold">KAYKARI BASKET</h1>
+          <p className="mt-4 text-center">"This is exactly what we were looking for. The web design was cutting-edge and freaking cool! Thanks for the services"</p>
         
-  <div class="container mx-auto px-4">
-   <p class="mb-16 text-base max-w-md mx-auto text-center text-gray-600 ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-    <div class="flex flex-col lg:flex-row -m-5 border-t-2">
-      <div class="w-full lg:w-1/3 p-5">
-        <div class="h-full p-0.5 bg-gradient-cyan transform hover:-translate-y-3 rounded-10 transition ease-out duration-1000">
-          
-          <div class="h-full  bg-white rounded-full">
-          <div className="flex flex-row">
-            <img class="mb-8 w-1/2 h-1/4" src="/kbtestimon1-1-removebg-preview.png" alt="" />
-            <div className="mt-10">
-            <h3 class="font-heading font-bold text-lg text-gray-900">Darrell Steward</h3>
-            <p class="text-sm text-gray-600">Product Designer</p>
-            </div>
-            </div>
-            <p class="mb-8 text-lg text-gray-900">&ldquo;You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change.&rdquo;</p>
-            
-          </div>
         </div>
-      </div>
-      <div class="w-full  lg:w-1/3 p-5">
-        <div class="h-full p-0.5 bg-gradient-cyan transform hover:-translate-y-3 rounded-10 transition ease-out duration-1000">
-          
-          <div class="h-full  bg-white rounded-full">
-          <div className="flex flex-row">
-            <img class="mb-8 w-1/2 h-1/4" src="/kbtestimon1-1-removebg-preview.png" alt="" />
-            <div className="mt-10">
-            <h3 class="font-heading font-bold text-lg text-gray-900">Darrell Steward</h3>
-            <p class="text-sm text-gray-600">Product Designer</p>
-            </div>
-            </div>
-            <p class="mb-8 text-lg text-gray-900">&ldquo;You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change.&rdquo;</p>
-            
-          </div>
         </div>
-      </div>
-      <div class="w-full lg:w-1/3 p-5">
-        <div class="h-full p-0.5 bg-gradient-cyan transform hover:-translate-y-3 rounded-10 transition ease-out duration-1000">
-          
-          <div class="h-full  bg-white rounded-full">
-          <div className="flex flex-row">
-            <img class="mb-8 w-1/2 h-1/4" src="/kbtestimon1-1-removebg-preview.png" alt="" />
-            <div className="mt-10">
-            <h3 class="font-heading font-bold text-lg text-gray-900">Darrell Steward</h3>
-            <p class="text-sm text-gray-600">Product Designer</p>
-            </div>
-            </div>
-            <p class="mb-8 text-lg text-gray-900">&ldquo;You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change.&rdquo;</p>
-            
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-)
-        }
+        <div className="col-span-1">
+        <div className="flex flex-col md:flex-row">
+         <div className="w-32 h-32 rounded-full">
+        <img src="/kbtestimon1-1-removebg-preview.png"/>
+        </div>
+        <div className="w-full h-1/2 rounded-lg shadow-lg flex flex-col -mt-12 md:-mt-0 p-2">
+          <h1 className="text-center font-bold">KAYKARI BASKET</h1>
+          <p className="mt-4 text-center">"This is exactly what we were looking for. The web design was cutting-edge and freaking cool! Thanks for the services"</p>
+        </div>
+        </div>
+        </div>
+ </div>
+</div>
+        </div>
+     </section>   
+     </Container>
+    )
+}

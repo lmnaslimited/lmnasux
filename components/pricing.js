@@ -1,14 +1,14 @@
 import React from "react";
-
+import Container from "./container";
 export default function Pricing(pricing) {
     return (
-      
-            <div className="bg-gradient-to-b from-blue-50 via-white to-white my-24 lg:mx-24 ">
-                <section className="text-gray-600 body-font overflow-hidden 2xl:ml-44">
-  <div className=" px-5  ">
-    <div className="flex flex-col md:flex-row">
+      <Container>
+            <div className="bg-gradient-to-b from-blue-50 via-white to-white my-24">
+                <section className="text-gray-600 body-font overflow-hidden justify-center items-center ">
+  <div className=" ">
+    <div className="flex flex-col md:flex-row justify-center">
      
-      <div className="p-4 lg:w-72 md:w-1/2 w-full">
+      <div className="p-4 w-full">
         <div className="h-full p-6 rounded-lg border-2 border-gray-500 flex flex-wrap flex-col relative overflow-hidden">
           <h2 className="text-md tracking-widest title-font mb-1 font-medium">E-COMMERCE</h2>
           <h1 className="text-5xl text-gray-800 leading-none flex items-center pb-4 mb-4 border-b border-gray-500">
@@ -23,7 +23,7 @@ export default function Pricing(pricing) {
           <p className="text-xs text-gray-500"></p>
         </div>
       </div>
-      <div className="p-4 lg:w-72 md:w-1/2 w-full ">
+      <div className="p-4 w-full ">
         <div className="h-full p-6 rounded-lg border-2 border-gray-500 flex flex-col relative overflow-hidden">
           <h2 className="text-md tracking-widest title-font mb-1 font-medium">ERP</h2>
           <h1 className="text-5xl text-gray-800 leading-none flex items-center pb-4 mb-4 border-b border-gray-500">
@@ -38,7 +38,7 @@ export default function Pricing(pricing) {
           <p className="text-xs text-gray-500"></p>
         </div>
       </div>
-      <div className="p-4 lg:w-72 md:w-1/2 w-full">
+      <div className="p-4 w-full">
         <div className="h-full p-6 rounded-lg border-2 border-gray-500 flex flex-col relative overflow-hidden">
           <h2 className="text-sm tracking-widest title-font mb-1 font-medium">DIGITAL MARKETING</h2>
           <h1 className="text-5xl text-gray-800 leading-none flex items-center pb-4 mb-4 border-b border-gray-500">
@@ -58,6 +58,7 @@ export default function Pricing(pricing) {
 </section>
                
                 </div>
+                </Container>
       
     );
 }
