@@ -21,7 +21,7 @@ export default function Industries({industries}) {
   <div className="col-span-1 md:col-span-2">
   <div className="flex flex-row lg:justify-center">
          <div className="">
-                <Image width="160" height="160" src="/crane.gif" />
+                <Image width="160" height="160" src="/industries/manufacturing-640x640.gif" />
             </div>
             <div className="flex flex-col p-2 ml-4">
                 <div>
@@ -43,7 +43,7 @@ export default function Industries({industries}) {
   <div className="col-span-1">
   <div className="flex flex-row">
          <div className="">
-                <Image width="160" height="160" src="/shopping-bag.gif" />
+                <Image width="160" height="160" src="/industries/retail-640x640.gif" />
             </div>
             <div className="flex flex-col ml-4 p-2">
                 <div>
@@ -65,7 +65,7 @@ export default function Industries({industries}) {
   <div className="col-span-1">
   <div className="flex flex-row">
          <div className="">
-                <Image width="160" height="160" src="/truck.gif" />
+                <Image width="160" height="160" src="/industries/distribution-640x640.gif" />
             </div>
             <div className="flex flex-col ml-4 p-2">
                 <div>
@@ -87,7 +87,7 @@ export default function Industries({industries}) {
   <div className="col-span-1">
   <div className="flex flex-row">
          <div className="">
-                <Image width="160" height="160" src="/mortarboard.gif" />
+                <Image width="160" height="160" src="/industries/education-640x640.gif" />
             </div>
             <div className="flex flex-col p-2 ml-4">
                 <div>
@@ -109,7 +109,7 @@ export default function Industries({industries}) {
   <div className="col-span-1">
   <div className="flex flex-row">
          <div className="">
-                <Image width="160" height="160" src="/stethoscope.gif" />
+                <Image width="160" height="160" src="/industries/healthcare-640x640.gif" />
             </div>
             <div className="flex flex-col ml-4 p-2">
                 <div>

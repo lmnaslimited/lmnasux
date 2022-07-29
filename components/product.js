@@ -19,7 +19,7 @@ export default function products({products}) {
          <div className="row-span-1 col-span-1 md:col-span-2 row-start-1 md:col-start-1 lg:col-start-2 md:border-b-2 lg:mt-1 md:mt-12 bg-white">
          <div className="flex flex-row md:w-1/2 ">
          <div className=" mt-10 ">
-                <Image width="160" height="160" src="/presentation.gif" />
+                <Image width="160" height="160" src="/product/erp-640x640.gif" />
             </div>
             <div className="flex flex-col mt-12 p-2 w-full md:w-auto">
                 <div>
@@ -41,7 +41,7 @@ export default function products({products}) {
         <div className="row-span-1 col-span-1 row-start-2 col-start-1 lg:col-start-2  w-full items-center justify-center">
          <div className="flex flex-row">
          <div className=" mt-10">
-                <Image width="160" height="160" src="/shopping-cart.gif" />
+                <Image width="160" height="160" src="/product/ecommerce-640x640.gif" />
             </div>
             <div className="flex flex-col mt-12 p-2 w-full md:w-auto">
                 <div>
@@ -63,7 +63,7 @@ export default function products({products}) {
         <div className="row-span-1 col-span-1 row-start-3 col-start-1 md:row-start-2 md:col-start-2 lg:col-start-3 w-full md:border-l-2">
         <div className="flex flex-row">
          <div className=" mt-10">
-                <Image width="160" height="160" src="/tv.gif" />
+                <Image width="160" height="160" src="/product/digital-marketing-640x640.gif" />
             </div>
             <div className="flex flex-col mt-12 p-2 w-full md:w-auto">
                 <div>
