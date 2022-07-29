@@ -12,7 +12,7 @@ export default function Pricing(pricing) {
         <div className="h-full p-6 rounded-lg border-2 border-gray-500 flex flex-wrap flex-col relative overflow-hidden">
           <h2 className="text-md tracking-widest title-font mb-1 font-medium">E-COMMERCE</h2>
           <h1 className="text-5xl text-gray-800 leading-none flex items-center pb-4 mb-4 border-b border-gray-500">
-           <img src="/dollar.gif" className="w-24 h-24"></img> <span>72</span>
+           <img src="/pricing/coin-640x640.gif" className="w-24 h-24"></img> <span>72</span>
             <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
           </h1>
           <button className="flex items-center mt-auto text-white bg-blue-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
@@ -27,7 +27,7 @@ export default function Pricing(pricing) {
         <div className="h-full p-6 rounded-lg border-2 border-gray-500 flex flex-col relative overflow-hidden">
           <h2 className="text-md tracking-widest title-font mb-1 font-medium">ERP</h2>
           <h1 className="text-5xl text-gray-800 leading-none flex items-center pb-4 mb-4 border-b border-gray-500">
-          <img src="/dollar.gif" className="w-24 h-24"></img><span>72</span>
+          <img src="/pricing/coin-640x640.gif" className="w-24 h-24"></img><span>72</span>
             <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
           </h1>
           <button className="flex items-center mt-auto text-white bg-blue-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
@@ -42,7 +42,7 @@ export default function Pricing(pricing) {
         <div className="h-full p-6 rounded-lg border-2 border-gray-500 flex flex-col relative overflow-hidden">
           <h2 className="text-sm tracking-widest title-font mb-1 font-medium">DIGITAL MARKETING</h2>
           <h1 className="text-5xl text-gray-800 leading-none flex items-center pb-4 mb-4 border-b border-gray-500">
-          <img src="/dollar.gif" className="w-24 h-24"></img> <span>72</span>
+          <img src="/pricing/coin-640x640.gif" className="w-24 h-24"></img> <span>72</span>
             <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
           </h1>
           <button className="flex items-center mt-auto text-white bg-blue-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Button
