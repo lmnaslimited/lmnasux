@@ -11,7 +11,7 @@ export default function Pricing(pricing) {
      
       <div className="p-4 w-full">
         <div className="h-full p-6 rounded-lg border-2 border-gray-500 flex flex-wrap flex-col relative overflow-hidden">
-          <h2 className="text-md tracking-widest title-font mb-1 font-medium">E-COMMERCE</h2>
+          <h2 className="text-lg font-bold font-sans text-gray-800">E-COMMERCE</h2>
           <h1 className="text-5xl text-gray-800 leading-none flex items-center pb-4 mb-4 border-b border-gray-500">
            <Image alt="" width="120" height="120" src="/pricing/coin-640x640.gif" className="w-24 h-24"></Image> <span>72</span>
             <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
@@ -21,12 +21,11 @@ export default function Pricing(pricing) {
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
-          <p className="text-xs text-gray-500"></p>
         </div>
       </div>
       <div className="p-4 w-full ">
         <div className="h-full p-6 rounded-lg border-2 border-gray-500 flex flex-col relative overflow-hidden">
-          <h2 className="text-md tracking-widest title-font mb-1 font-medium">ERP</h2>
+          <h2 className="text-lg font-bold font-sans text-gray-800">ERP</h2>
           <h1 className="text-5xl text-gray-800 leading-none flex items-center pb-4 mb-4 border-b border-gray-500">
           <Image alt="" width="120" height="120" src="/pricing/coin-640x640.gif" className="w-24 h-24"></Image> <span>72</span>
             <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
@@ -36,12 +35,11 @@ export default function Pricing(pricing) {
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
-          <p className="text-xs text-gray-500"></p>
         </div>
       </div>
       <div className="p-4 w-full">
         <div className="h-full p-6 rounded-lg border-2 border-gray-500 flex flex-col relative overflow-hidden">
-          <h2 className="text-sm tracking-widest title-font mb-1 font-medium">DIGITAL MARKETING</h2>
+          <h2 className="text-lg font-bold font-sans text-gray-800">DIGITAL MARKETING</h2>
           <h1 className="text-5xl text-gray-800 leading-none flex items-center pb-4 mb-4 border-b border-gray-500">
           <Image alt="" width="120" height="120" src="/pricing/coin-640x640.gif" className="w-24 h-24"></Image> <span>72</span>
             <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
@@ -51,7 +49,6 @@ export default function Pricing(pricing) {
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
-          <p className="text-xs text-gray-500"></p>
         </div>
       </div>
     </div>

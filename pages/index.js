@@ -1,4 +1,3 @@
-import Clients from "../components/clients/clients";
 import Layout from '../components/layout'
 import Hero from "../components/hero/hero";
 import Product from "../components/product";
