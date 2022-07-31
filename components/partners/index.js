@@ -8,10 +8,13 @@ export default function Partner({partner}) {
        <h1 className="text-xl text-gray-800 font-bold bg-white text-center not-sr-only md:sr-only">TESTIMONIALS</h1>
           <div className="md:-mt-6 text-center items-center sr-only md:not-sr-only "><button className="text-3xl bg-white font-bold justify-center text-center">TESTIMONIALS</button></div>
         <div className="grid grid-cols-2 gap-4 ">
-        <div className="col-span-2 border-b-2 py-8 ">
-        <div className="md:w-full md:h-full lg:p-4 xl:p-0">
-        <p className="leading-relaxed text-md text-center lg:p-2">
-           Team LMNAs have built custom pre-sales enquiry and offer management solution for us, now we are 45% more efficient interms of offer closure
+        <div className="col-span-2 border-b-2 py-4">
+        <div className="md:w-full container md:h-full">
+        <p className="leading-relaxed text-md text-center">
+           Team LMNAs have built custom pre-sales enquiry and offer management solution for us,
+          </p> 
+          <p className="leading-relaxed text-md text-center">
+           now we are 45% more efficient interms of offer closure
           </p> 
           </div>
         </div>
