@@ -47,8 +47,20 @@ function BuildMenu({ categories }) {
   //const cat = categories.map((category) => { return {name: category.name, slug: category.slug}  })
   return [
     {
+      menu: 'About Us',
+      target: '/aboutus'
+    },
+    {
+      menu: 'Products',
+      target: 'products'
+    },
+    {
       menu: 'Industries',
       target: 'https://lmnas.com/#industries'
+    },
+    {
+      menu: 'Services',
+      target: 'https://lmnas.com/#pricing'
     },
     {
       menu: 'Pricing',
@@ -56,12 +68,8 @@ function BuildMenu({ categories }) {
     },
 
     {
-      menu: 'Contact',
+      menu: 'Testimonials',
       target: 'https://lmnas.com/contact'
-    },
-    {
-      menu: 'Subscriptions',
-      target: 'https://nectar.lmnas.com/all-products'
     }
   ]
 }
