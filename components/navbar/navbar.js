@@ -70,6 +70,10 @@ function BuildMenu({ categories }) {
     {
       menu: 'Testimonials',
       target: 'https://lmnas.com/contact'
+    },
+    {
+      menu: 'Contact Us',
+      target: '/contactus'
     }
   ]
 }
