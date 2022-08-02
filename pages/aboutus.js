@@ -5,7 +5,7 @@ export default function Aboutus({aboutus}){
     return(
         <Layout>
             <Container>
-        <div className="bg-white text-gray-800">
+        <div className="bg-white text-gray-800 ">
          <div className="grid grid-cols-1 gap-8 my-16">
 
 <a href="#" className="flex flex-col items-center bg-white rounded-lg shadow-md md:flex-row justify-center lg:ml-32 xl:ml-36 2xl:ml-44 lg:w-3/4">
@@ -20,7 +20,6 @@ export default function Aboutus({aboutus}){
     </div>
 </a>
 
-</div>
 </div>
 <div className="w-full mt-44 ">
                 <div className="container md:px-10 xl:px-28 ">
@@ -89,6 +88,8 @@ export default function Aboutus({aboutus}){
                 <p className="text-center text-gray-800 text-base pt-3 font-normal"></p>
             </div>
             </div>
+            
+</div>
         </Container>
         </Layout>
     )
