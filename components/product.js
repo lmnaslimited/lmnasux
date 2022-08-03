@@ -16,7 +16,7 @@ export default function products({products}) {
           </p> 
           </div>
         </div>   
-         <div className="row-span-1 col-span-1 md:col-span-2 row-start-1 md:col-start-1 lg:col-start-2 md:border-b-2 lg:mt-1 md:mt-12 bg-white">
+         <div className="row-span-1 col-span-1 md:col-span-2 row-start-1 md:col-start-1 lg:col-start-2 md:border-b-2 lg:mt-1 md:mt-12">
          <div className="flex flex-row md:w-1/2 ">
          <div className=" mt-10 ">
                 <Image alt=""  width="160" height="160" src="/product/erp-640x640.gif" />

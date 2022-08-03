@@ -5,7 +5,7 @@ import Link from "next/link"
 export default function Industries({industries}) {
     return (
     <Container>
-      <section className="text-gray-800 my-24 border-2 ">
+      <section className="text-gray-800 my-24 border-2">
        <h1 className="text-xl text-gray-800 font-bold bg-white text-center not-sr-only md:sr-only">INDUSTRIES</h1>
           <div className="md:-mt-6 text-center items-center sr-only md:not-sr-only "><button className="text-3xl justify-center bg-white font-bold text-center">INDUSTRIES</button></div>
         <div className="grid grid-cols-2 gap-4 ">
