@@ -3,7 +3,7 @@ import Container from "./container"
 export default function Services({services}) {
     return (
         <Container>
-        <section className="lg:bg-gradient-to-r from-pink-50 via-blue-50 to-white bg-gradient-to-b from-pink-50 via-white to-white my-24 ">
+        <section className="lg:bg-gradient-to-r from-pink-50 via-white to-white bg-gradient-to-b from-pink-50 via-white to-white my-24 ">
         <div className="items-center lg:mt-12 not-sr-only lg:sr-only">
         <h1  className="text-2xl text-center md:text-3xl font-bold md:font-sans md:pt-0 md:mt-12 lg:ml-12 text-center text-gray-800 antialiased uppercase">SERVICES</h1>
         </div>
