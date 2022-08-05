@@ -57,7 +57,7 @@ export default function Aboutus({aboutus}){
             </div>
             <div className="flex flex-col border-2 py-8 my-24">
             <h1 className="font-bold text-3xl text-center pb-1">CORE VALUES</h1>
-        <p className="text-center text-gray-800 text-base pt-3 font-normal px-12">
+        <p className="text-center text-gray-800 text-base pt-3 font-normal px-12 mx-36">
         Core values are the fundamental beliefs of a person or organization. These guiding principles dictate behavior and can help people 
         understand the difference between right and wrong.
         </p>

@@ -20,7 +20,7 @@ const Navbar = ({ categories }) => {
   if (!mounted) return null;
   return (<div>
     <Container>
-    <nav className="mx-auto flex items-center justify-between flex-wrap py-6">
+    <nav className="xl:mx-14 2xl:mx-16 flex items-center justify-between flex-wrap py-6">
       <Logo />
       {/**Handle Hamburger toggle and set the display MobileMenu AppContext */}
       <ToggleMobileMenu />

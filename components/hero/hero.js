@@ -3,7 +3,7 @@ import Container from "../container";
 export default function Hero() {
   return (
     <Container>
-<section className="bg-white text-gray-800 lg:-mt-16">
+<section className="bg-white text-gray-800 lg:-mt-16 xl:mx-14 2xl:mx-16">
     <div className="grid max-w-screen-xl py-8 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 ">
         <div className="mr-auto place-self-center lg:col-span-6 sr-only lg:not-sr-only">
              <p className="max-w-2xl mb-6 font-normal text-gray-800 lg:mb-8 md:text-lg lg:text-2xl">From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.</p>
