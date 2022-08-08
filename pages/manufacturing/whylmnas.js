@@ -9,15 +9,15 @@ export default function Whylmnas(Whylmnas){
             <div className="flex items-center -mx-3 sm:-mx-4">
                <div className="w-full xl:w-1/2 px-3 sm:px-4">
                   <div className="py-3 sm:py-4">
-                     <Image width="120" height="120" 
-                        src="https://cdn.tailgrids.com/1.0/assets/images/services/image-1.jpg"
+                     <Image width="4220" height="3220" 
+                        src="/contactus/working-women6123x4082.png"
                         alt=""
                         className="rounded-2xl w-full"
                         />
                   </div>
                   <div className="py-3 sm:py-4">
-                     <Image width="120" height="120" 
-                        src="https://cdn.tailgrids.com/1.0/assets/images/services/image-2.jpg"
+                     <Image width="4220" height="3220" 
+                        src="/contactus/working-women6123x4082.png"
                         alt=""
                         className="rounded-2xl w-full"
                         />
@@ -25,8 +25,8 @@ export default function Whylmnas(Whylmnas){
                </div>
                <div className="w-full xl:w-1/2 px-3 sm:px-4">
                   <div className="my-4 relative z-10">
-                     <Image width="120" height="120" 
-                        src="https://cdn.tailgrids.com/1.0/assets/images/services/image-3.jpg"
+                     <Image width="4220" height="3320" 
+                        src="/contactus/working-women6123x4082.png"
                         alt=""
                         className="rounded-2xl w-full"
                         />

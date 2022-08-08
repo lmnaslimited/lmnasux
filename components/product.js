@@ -10,8 +10,8 @@ export default function products({products}) {
         <div className="grid grid-rows-3 grid-cols-1 md:grid-rows-2 md:grid-cols-2 lg:grid-rows-2 lg:grid-cols-3 gap-1 ">
          <div className="lg:row-span-2 lg:col-span-1 lg:row-start-1 lg:col-start-1 lg:bg-pink-50 sr-only lg:not-sr-only">
         <div className="container justify-center px-4">
-        <h1  className="text-3xl font-bold md:font-sans text-center text-gray-800 antialiased uppercase mt-32">products</h1>
-        <p className="leading-relaxed text-md lg:text-center text-gray-800">
+        <h1  className="text-3xl font-bold md:font-sans text-center text-gray-800 antialiased uppercase mt-28">products</h1>
+        <p className="leading-relaxed text-md lg:text-center text-gray-800 lg:mt-4">
            Team LMNAs have built custom pre-sales enquiry and offer management solution for us, now we are 45% more efficient interms of offer closure
           </p> 
           </div>

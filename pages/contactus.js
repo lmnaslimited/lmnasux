@@ -16,7 +16,7 @@ function MyApp() {
                                 </div>
                                 <div className="px-6 my-8 ">
                                     <h1 className="font-bold text-3xl text-center pb-1 uppercase">call us</h1>
-                                    <p className="text-center mb-4 text-gray-800 text-lg pt-3 font-normal">(91) 98840-44470</p>
+                                    <a href="" ><p className="text-center mb-4 text-gray-800 text-lg pt-3 font-normal">(91) 98840-44470</p></a>
                                     
                             </div>
                   </div>
@@ -34,7 +34,7 @@ function MyApp() {
                                 </div>
                   </div>
                   </div>
-                  <div className="col-span-1 bg-pink-50 ">
+                  <div className="col-span-1 bg-pink-50 hover:transform hover:scale-105">
                   <div className="flex flex-col">
                                 <div className="-mt-20 w-full flex justify-center">
                                     <div className="h-32 w-32 flex ">
@@ -49,7 +49,7 @@ function MyApp() {
                        </div>
                        <section className="text-gray-600 body-font relative bg-white">
   <div className="container py-12 lg:-ml-32 flex flex-col lg:flex-row bg-white">
-    <div className="lg:w-3/4 md:w-full bg-white rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+    <div className="lg:w-full md:w-full bg-white rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
      <Image src="/contactus/working-women6123x4082.png" width="6000" height="4000" alt="" />
     </div>
     <div className="lg:w-1/2 md:w-full bg-blue-50 flex flex-col md:ml-auto w-full md:py-8 md:px-12 mt-8 md:mt-0">
