@@ -14,9 +14,9 @@ export default function Home({homeData}) {
       <Layout>
         <Hero />
         <Container>
-          <Product></Product>
-          <Industries></Industries>
-          <Services></Services>
+          <Product products={homeData.products}></Product>
+          <Industries industries={homeData.industries}></Industries>
+          <Services services={homeData.services}></Services>
           <Pricing></Pricing>
           <Partners partners={homeData.partners}/>
         </Container>
