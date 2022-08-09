@@ -11,19 +11,19 @@ export default function Industries({industries}) {
         
         <div className="grid grid-cols-1 md:grid-cols-2 space-y-8 md:space-y-4 m-2 mt-10 lg:mx-12 lg:my-8 gap-4">
          <div className="md:col-span-2 lg:mx-64 ">
-         {industries.industries.slice(0, 1).map((industries) => (
-                                <Cardtype key={industries.title} src={industries.image} title={industries.title} subTitle={industries.subTitle} />
-                            ))}
+                                <Cardtype key={industries[0].title} src={industries[0].image} title={industries[0].title} subTitle={industries[0].subTitle} />
          </div>
-         <div className="md:col-span-2 flex-col md:flex-row flex ">
-         {industries.industries.slice(1, 3).map((industries) => (
-                                <Cardtype key={industries.title} src={industries.image} title={industries.title} subTitle={industries.subTitle} />
-                            ))}
+         <div className="md:col-span-1 flex-col md:flex-row flex ">
+                                <Cardtype key={industries[1].title} src={industries[1].image} title={industries[1].title} subTitle={industries[1].subTitle} />
          </div>
-         <div className="md:col-span-2 flex-col md:flex-row flex ">
-         {industries.industries.slice(3,5).map((industries) => (
-                                <Cardtype key={industries.title} src={industries.image} title={industries.title} subTitle={industries.subTitle} />
-                            ))}
+         <div className="md:col-span-1 flex-col md:flex-row flex ">
+                                <Cardtype key={industries[2].title} src={industries[2].image} title={industries[2].title} subTitle={industries[2].subTitle} />
+         </div>
+         <div className="md:col-span-1 flex-col md:flex-row flex ">
+                                <Cardtype key={industries[3].title} src={industries[3].image} title={industries[3].title} subTitle={industries[3].subTitle} />
+         </div>
+         <div className="md:col-span-1 flex-col md:flex-row flex ">
+                                <Cardtype key={industries[4].title} src={industries[4].image} title={industries[4].title} subTitle={industries[4].subTitle} />
          </div>
         </div>
      </section>   
