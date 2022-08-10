@@ -1,14 +1,14 @@
 import Container from "../container";
 import Logo from "../navbar/logo";
 
-export default function Footer() {
+export default function Footer({footer}) {
   return (
     <footer className="text-gray-600 body-font mt-24">
      <Container>
     <div className="container py-8">
       <div className="flex flex-wrap md:text-left text-center order-first">
         <div className="lg:w-1/4 md:w-1/2 w-full">
-          <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+          <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">categories</h2>
           <nav className="list-none mb-10">
             <li>
               <a className="text-gray-600 hover:text-gray-800">First Link</a>

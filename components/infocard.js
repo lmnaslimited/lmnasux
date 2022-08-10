@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-export default function Cardtype({ src, title, subTitle, href }) {
+export default function Infocard({ src, title, subTitle, href, linkName }) {
     return (
         <div className="flex flex-row ">
             <div className=" mt-10 ">
@@ -18,7 +18,7 @@ export default function Cardtype({ src, title, subTitle, href }) {
                     </p>
                 </div>
                 <div>
-                    <button className="text-md border-2 text-purple-500 px-4 py-1 mt-2 ml-4">Explore</button>
+               <a href={href}><button className="text-md border-2 text-purple-500 px-4 py-1 mt-2 ml-4">{linkName}</button></a>
                 </div>
             </div>
         </div>

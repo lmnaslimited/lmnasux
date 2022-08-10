@@ -6,25 +6,19 @@ function MyApp() {
     return (
       <div>
          <Layout>
-         <div className="h-48 container  bg-gray-800">
-          <div className="flex flex-col">
-            <h1 className="text-3xl text-white font-bold tracking-wide text-center my-8">We’d love to hear from you</h1>
-            <p className="text-xl text-white font-semibold tracking-wide text-center my-4">Have questions about our products, features, trials, or pricing? Need a demo? our teams will help you.</p>
-          </div>
-  </div>
   <Container>
     
 
   <section className="text-gray-600 body-font relative">
-  <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+  <div className="container px-5 py-24 xl:mx-auto flex flex-col md:flex-row">
   <div className="grid grid-cols-1 gap-24 shadow-md  mx-4 xl:mx-8 px-40 space-y-20 md:space-y-0 p-12">
                   <div className="col-span-1">
-                  <div className="flex flex-col">
-                                <div className="-mt-20 w-full flex justify-center">
-                                    <div className="h-32 w-32 flex">
+                  <div className="flex flex-row md:flex-col">
+                                <div className="-mt-20 w-full">
+                                    <div className="h-12 w-12 md:h-32 md:w-32 flex">
                                     <Image width="160" height="160" src="/contactus/contact-640x640.gif" alt="" /></div>
                                 </div>
-                                <div className="px-6 my-8 ">
+                                <div className="px-6 my-8  w-full inline-block">
                                     <h1 className="font-bold text-3xl text-center pb-1 uppercase">call us</h1>
                                     <a href="" ><p className="text-center mb-4 text-gray-800 text-lg pt-3 font-normal">(91) 98840-44470</p></a>
                                     

@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Container from "./container"
-import Cardtype from "./cardtype"
+import Infocard from "./infocard"
 export default function Services({ services }) {
     return (
         <Container>
@@ -17,14 +17,14 @@ export default function Services({ services }) {
                     </div>
                     <div className="col-span-1 md:col-span-2 md:border-b-2 ">
                         <div className="md:w-1/2 ">
-                                <Cardtype key={services.services[0].title} src={services.services[0].image} title={services.services[0].title} subTitle={services.services[0].subTitle} />
+                                <Infocard key={services.services[0].title} src={services.services[0].image} title={services.services[0].title} subTitle={services.services[0].subTitle} />
                         </div>
                     </div>
                     <div className="col-span-1 lg:col-start-2 md:border-r-2">
-                            <Cardtype key={services.services[1].title} src={services.services[1].image} title={services.services[1].title} subTitle={services.services[1].subTitle} />
+                            <Infocard key={services.services[1].title} src={services.services[1].image} title={services.services[1].title} subTitle={services.services[1].subTitle} />
                     </div>
                     <div className=" col-span-1 lg:col-start-3">
-                            <Cardtype key={services.services[2].title} src={services.services[2].image} title={services.services[2].title} subTitle={services.services[2].subTitle} />
+                            <Infocard key={services.services[2].title} src={services.services[2].image} title={services.services[2].title} subTitle={services.services[2].subTitle} />
                     </div>
                 </div>
             </section>
