@@ -19,7 +19,7 @@ export default function Home({homeData}) {
           <Industries industries={homeData.industries}></Industries>
           <Services services={homeData.services}></Services>
           <Pricing pricing={homeData.pricing.pricing}></Pricing>
-          <Partners partner={homeData.partner.partner}/>
+          <Partners partner={homeData.partner}/>
         </Container>
       </Layout>
     </>

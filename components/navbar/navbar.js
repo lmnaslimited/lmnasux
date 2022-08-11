@@ -56,7 +56,7 @@ function BuildMenu({ categories }) {
     },
     {
       menu: 'Industries',
-      target: 'https://lmnas.com/#industries'
+      target: '/manufacturing/manufacturing'
     },
     {
       menu: 'Services',

@@ -12,18 +12,19 @@ export default function Partner({partner}) {
         <div className="col-span-2 lg:mt-8 py-4">
         <div className="md:w-full container md:h-full">
         <p className="leading-relaxed text-lg text-center">
-           Team LMNAs have built custom pre-sales enquiry and offer management solution for us,
+         {partner.title}
+          
           </p> 
           <p className="leading-relaxed text-lg text-center">
-           now we are 45% more efficient interms of offer closure
+          {partner.subTitle} 
           </p> 
           </div>
         </div>
         <div className="col-span-2 p-12">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-       <Partnercard  key={partner[0].title} src={partner[0].image} title={partner[0].title} subTitle={partner[0].subTitle}></Partnercard>
-       <Partnercard  key={partner[0].title} src={partner[0].image} title={partner[0].title} subTitle={partner[0].subTitle}></Partnercard>
-       <Partnercard  key={partner[0].title} src={partner[0].image} title={partner[0].title} subTitle={partner[0].subTitle}></Partnercard>
+       <Partnercard  key={partner.partner[0].title} src={partner.partner[0].image} title={partner.partner[0].title} subTitle={partner.partner[0].subTitle}></Partnercard>
+       <Partnercard  key={partner.partner[0].title} src={partner.partner[0].image} title={partner.partner[0].title} subTitle={partner.partner[0].subTitle}></Partnercard>
+       <Partnercard  key={partner.partner[0].title} src={partner.partner[0].image} title={partner.partner[0].title} subTitle={partner.partner[0].subTitle}></Partnercard>
  </div>
 </div>
         </div>
