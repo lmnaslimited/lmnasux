@@ -1,5 +1,5 @@
 import Head from 'next/head'
-export default function Meta() {
+export default function Homemeta({homemeta}) {
   return (
     <Head>
       <link
@@ -31,9 +31,25 @@ export default function Meta() {
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
-        name="description"
-        content="SCL Consulting Services"
-      />
+        name={homemeta.keywords.name}
+        content={homemeta.keywords.content}
+        />
+        <meta
+        name={homemeta.description.name}
+        content={homemeta.description.content}
+        />
+        <meta
+        name={homemeta.author.name}
+        content={homemeta.author.content}
+        />
+        <meta
+        name={homemeta.viewport.name}
+        content={homemeta.viewport.content}
+        />
+        <meta
+        name={homemeta.generator.name}
+        content={homemeta.generator.content}
+        />
      {/**<meta property="og:image" content={HOME_OG_IMAGE_URL} /> */}  
     </Head>
   )

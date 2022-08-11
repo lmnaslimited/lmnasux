@@ -12,7 +12,7 @@ import {getHomePageData} from '../lib/api'
 export default function Home({homeData}) {
   return (
     <>
-      <Layout>
+      <Layout homemeta ={homeData.homemeta} >
         <Hero hero={homeData.hero}></Hero>
         <Container>
           <Product products={homeData.products}></Product>

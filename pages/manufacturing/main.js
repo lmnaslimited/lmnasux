@@ -8,7 +8,7 @@ import Industry from "./industry";
 export default function Manufacturing({industryData}){
     return (
         <section>
-        <Layout>
+        <Layout key={industryData.industrymeta}>
         <Container>
         <Whylmnas whylmnas={industryData.whylmnas} ></Whylmnas>
         <Industry industry={industryData.industry} ></Industry>
