@@ -6,15 +6,15 @@
   filter: grayscale(1);
 }
 :root {
-  --background: theme('colors.lime.400');
-  --background-secondary: theme('colors.lime.50');
+  --background: theme('colors.pink.50');
+  --background-secondary: theme('colors.blue.50');
 
   --accent-dark: theme('colors.pink.900');
   --accent-medium: theme('colors.purple.600');
   --accent-light: theme('colors.pink.500');
 
   --primary-dark: theme('colors.gray.800');
-  --primary-medium: theme('colors.gray.600');
+  --primary-medium: theme('colors.purple.500');
   --primary-light: theme('colors.gray.400');
 }
 

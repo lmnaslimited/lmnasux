@@ -8,11 +8,15 @@ import Pricing from '../components/pricing/pricing';
 import Partners from '../components/partners';
 import Footer from '../components/footer/footer';
 import {getHomePageData} from '../lib/api'
+import Head from 'next/head';
 
 export default function Home({homeData}) {
   return (
     <>
-      <Layout homemeta ={homeData.homemeta} >
+      <Layout meta={homeData.homeMeta.meta} >
+        <Head>
+          <title>{homeData.title}</title>
+        </Head>
         <Hero hero={homeData.hero}></Hero>
         <Container>
           <Product products={homeData.products}></Product>

@@ -9,9 +9,9 @@ export default function Enquirycard({title, subTitle, src, linkName, href}){
                                     </div>
                                     <div className="px-6 my-8 ">
                                         <h1 className="font-bold text-3xl text-center pb-1 uppercase">{title}</h1>
-                                        <p className="text-center mb-4 text-gray-800 text-lg pt-3 font-normal">{subTitle}</p>
+                                        <p className="text-center mb-4 text-th-primary-dark text-lg pt-3 font-normal">{subTitle}</p>
                                         <div className="flex items-center">
-                                            <h3 className=" ml-32 text-center text-lg lg:text-xl font-semibold text-indigo-700">{linkName}</h3>
+                                            <h3 className=" ml-32 text-center text-lg lg:text-xl font-semibold text-th-primary-medium">{linkName}</h3>
                                             <div className="pl-2">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
                                                     <path d="M13.1719 12L8.22192 7.04999L9.63592 5.63599L15.9999 12L9.63592 18.364L8.22192 16.95L13.1719 12Z" fill="#D53F8C" />

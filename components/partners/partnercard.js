@@ -2,7 +2,7 @@ import Image from "next/image";
 import Partner from ".";
 export default function Partnercard({src, title, subTitle}){
 return(
-    <div className="col-span-1">
+    <div className="col-span-1 text-th-primary-dark">
     <div className="flex flex-col md:flex-row">
      <div className="w-32 h-32 rounded-full">
     <Image alt="" width="640" height="540" src={src}/>

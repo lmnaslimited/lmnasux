@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Layout from "./../components/layout"
+import Layout from "../components/layout"
 import Container from "../components/container"
 import Contacts from "../components/contact/contacts";
 import Image from "next/image";
@@ -8,7 +8,7 @@ import { getContactPageData } from "../lib/api";
 export default function Contactus({contactData}) {
     return (
       <div>
-         <Layout>
+         <Layout meta={contactData.contactMeta.meta}>
   <Container>
     <Contacts contacts={contactData.contacts} ></Contacts>
    <Enquiry enquiry={contactData.enquiry}></Enquiry>

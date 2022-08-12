@@ -17,6 +17,7 @@ module.exports = {
         teal: colors.teal,
         lime: colors.lime,
         midnight: '#010724',
+        'th-text': 'var(--text)',
         'th-background': 'var(--background)',
         'th-background-secondary': 'var(--background-secondary)',
         'th-foreground': 'var(--foreground)',
