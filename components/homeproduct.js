@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Container from "./container"
 import Infocard from "./infocard"
-export default function products({ products }) {
+export default function Homeproducts({ products }) {
     return ( 
         <Container>
             <section id="product" className="text-th-primary-dark my-24 ">

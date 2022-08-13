@@ -1,6 +1,6 @@
 import Layout from '../components/layout'
 import Hero from '../components/hero/hero'
-import Product from "../components/product";
+import Homeproducts from '../components/homeproduct';
 import Industries from "../components/industries";
 import Services from "../components/services";
 import Container from "../components/container";
@@ -19,7 +19,7 @@ export default function Home({homeData}) {
         </Head>
         <Hero hero={homeData.hero}></Hero>
         <Container>
-          <Product products={homeData.products}></Product>
+          <Homeproducts products={homeData.products}></Homeproducts>
           <Industries industries={homeData.industries}></Industries>
           <Services services={homeData.services}></Services>
           <Pricing pricing={homeData.pricing.pricing}></Pricing>

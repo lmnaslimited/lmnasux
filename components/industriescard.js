@@ -18,7 +18,7 @@ export default function Industriescard({ src, title, subTitle, href, linkName })
                     </p>
                 </div>
                 <div>
-               <a href={href}><button className="text-md border-2 text-th-primary-medium px-4 py-1 mt-2 ml-4">{linkName}</button></a>
+               <Link href={href}><button className="text-md border-2 text-th-primary-medium px-4 py-1 mt-2 ml-4">{linkName}</button></Link>
                 </div>
             </div>
         </div>

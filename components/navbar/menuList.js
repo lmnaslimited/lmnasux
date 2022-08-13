@@ -1,4 +1,5 @@
 import CollapseMenu from "./collapseMenu"
+import Dropdown from "./dropdown"
 //Get Menuitems from Layout and build the navbar menu list
 export default function MenuList({ menuItems }) {
   // Flex stacks the items by sideways. For Mobile we need the items to be stacked in row
@@ -21,6 +22,7 @@ function Menu({ menuItem }) {
       {menuItem.menu}
       {menuItem.subMenus ? (
         <CollapseMenu subMenus={menuItem.subMenus} />
+        
       ) : null
       }
     </a>
