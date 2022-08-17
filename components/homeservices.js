@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Container from "./container"
 import Infocard from "./infocard"
-export default function Services({ services }) {
+export default function Homeservices({ services }) {
     return (
         <Container>
             <section className="text-th-primary-dark my-24 ">

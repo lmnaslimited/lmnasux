@@ -33,11 +33,12 @@ export default function CollapseMenu({ subMenus }) {
           />
         </svg>
       </div>
-      <ul className={"absolute -ml-8 py-20 md:h-20 pt-1 group-hover:block" + (collapse ? hiddenClass : null)}>
+      
+      <ul className={"absolute -ml-8 py-20 bg-white rounded-lg shadow-lg md:h-20 pt-1 group-hover:block" + (collapse ? hiddenClass : null)}>
         {
           subMenus.map((subMenu) => (
             <li key={subMenu.name} className="">
-              <a href={process.env.BACKEND_URL + `/category/${subMenu.slug}`} className="px-12 bg-th-primary-light text-th-background-secondary  hover:bg-th-accent-medium hover:text-th-primary-light py-2 block whitespace-no-wrap">
+              <a href={process.env.BACKEND_URL + `/category/${subMenu.slug}`} className="px-12 bg-white text-gray-800 text-left  hover:bg-th-accent-medium hover:text-white py-2 block whitespace-no-wrap">
                 {subMenu.name}
               </a>
             </li>))

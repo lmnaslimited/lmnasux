@@ -2,6 +2,7 @@
 import Footer from './footer/footer'
 import Meta from './meta'
 import Navbar from './navbar/navbar'
+import AppContext from '../context/appContext'
 export default function Layout({ children, meta }) {
   return (
     <>

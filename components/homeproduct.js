@@ -22,10 +22,10 @@ export default function Homeproducts({ products }) {
                         </div>
                     </div>
                   <div className="col-span-1 lg:col-start-2 md:border-r-2">
-                         <Infocard key={products.products[1].title} src={products.products[1].image} title={products.products[1].title} subTitle={products.products[1].subTitle} href={products.products[0].href} linkName={products.products[0].linkName}/>
+                         <Infocard key={products.products[1].title} src={products.products[1].image} title={products.products[1].title} subTitle={products.products[1].subTitle} href={products.products[1].href} linkName={products.products[1].linkName}/>
                     </div>
                     <div className=" col-span-1 lg:col-start-3">
-                            <Infocard key={products.products[2].title} src={products.products[2].image} title={products.products[2].title} subTitle={products.products[2].subTitle} href={products.products[0].href} linkName={products.products[0].linkName}/>
+                            <Infocard key={products.products[2].title} src={products.products[2].image} title={products.products[2].title} subTitle={products.products[2].subTitle} href={products.products[2].href} linkName={products.products[2].linkName}/>
                       
                     </div>
                 </div>

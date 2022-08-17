@@ -8,6 +8,7 @@ import Logo from "./logo";
 import ToggleMobileMenu from "./toggleMobileMenu";
 import AppContext from '../../context/appContext';
 import Container from "../container";
+import Homeproducts from "../homeproduct";
 import Dropdown from "./dropdown";
 import Industries from "../industries";
 const industries = ['Retail', 'Education', 'Healthcare', 'Distribution', 'Manufacturing', 'Agriculture']
@@ -54,28 +55,29 @@ function BuildMenu({ categories }) {
     },
     {
       menu: 'Products',
-      target: 'products',
+      target: '/#homeproduct',
+      subMenus:
+      [
+        {name:"ERP", target:"/products/erp"},
+        {name:"Ecommerce"},
+        {name:"Digital Marketing"}
+      ]
+    },
+    {
+      menu: 'Industries',
+      target: '/#homeindustries',
       subMenus:
       [
         {name:"ERP"}
       ]
     },
     {
-      menu: 'Industries',
-      target: '/industries'
-    },
-    {
       menu: 'Services',
-      target: 'https://lmnas.com/#pricing'
-    },
-    {
-      menu: 'Pricing',
-      target: 'https://lmnas.com/#pricing'
-    },
-
-    {
-      menu: 'Testimonials',
-      target: 'https://lmnas.com/contact'
+      target: '/#homeservices',
+      subMenus:
+      [
+        {name:"ERP"}
+      ]
     },
     {
       menu: 'Contact Us',
