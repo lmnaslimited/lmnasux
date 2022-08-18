@@ -7,11 +7,13 @@
 }
 :root {
   --background: theme('colors.pink.50');
-  --background-secondary: theme('colors.blue.50');
+  --background-primary: theme('colors.gray.50');
+  --background-secondary: theme('colors.white');
+  --background-cta: theme('colors.blue.500');
 
-  --accent-dark: theme('colors.pink.900');
-  --accent-medium: theme('colors.purple.600');
-  --accent-light: theme('colors.pink.500');
+  --text-dark: theme('colors.gray.800');
+  --text-medium: theme('colors.gray.500');
+  --text-light: theme('colors.white');
 
   --primary-dark: theme('colors.gray.800');
   --primary-medium: theme('colors.purple.500');
@@ -22,9 +24,9 @@
   --background: theme('colors.gray.200');
   --background-secondary: theme('colors.gray.800');
 
-  --accent-dark: theme('colors.teal.600');
-  --accent-medium: theme('colors.amber.500');
-  --accent-light: theme('colors.pink.500');
+  --text-dark: theme('colors.teal.600');
+  --text-medium: theme('colors.amber.500');
+  --text-light: theme('colors.pink.500');
 
   --primary-dark: theme('colors.white');
   --primary-medium: theme('colors.lime.500');

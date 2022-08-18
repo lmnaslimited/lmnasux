@@ -5,12 +5,12 @@ import Industriescard from "./Industriescard"
 export default function Industries({industries}) {
     return (
     <Container>
-      <section className="text-th-primary-dark my-56 border-2 shadow-lg ">
-       <h1 className="text-xl  font-bold bg-white text-center not-sr-only md:sr-only">{industries.title}</h1>
-          <div className="md:-mt-6 text-center items-center sr-only md:not-sr-only "><button className=" p-2  text-3xl justify-center bg-white font-bold text-center">{industries.title}</button></div>
+      <section className=" my-56 border-2 shadow-lg bg-th-background-primary">
+       <h1 className="text-xl  font-bold text-th-text-dark text-center not-sr-only md:sr-only">{industries.title}</h1>
+          <div className="md:-mt-6 text-center items-center sr-only md:not-sr-only "><button className=" p-2  text-3xl justify-center bg-th-background-secondary font-bold text-center">{industries.title}</button></div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 space-y-8 md:space-y-4 m-2 mt-10 lg:mx-12 lg:my-8 gap-4">
-         <div className="md:col-span-2 lg:mx-64 ">
+         <div className="md:col-span-2 lg:mx-64">
                                 <Industriescard key={industries.industries[0].title} src={industries.industries[0].image} title={industries.industries[0].title} subTitle={industries.industries[0].subTitle} href={industries.industries[0].href} linkName={industries.industries[0].linkName} />
          </div>
          <div className="md:col-span-1 flex-col md:flex-row flex ">

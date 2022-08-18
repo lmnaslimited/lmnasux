@@ -5,8 +5,8 @@ export default function Corevalues({ corevalues }) {
     return (
         <div>
             <div className="flex flex-col border-2 py-8 my-24">
-                <h1 className="font-bold text-th-primary-dark text-3xl text-center pb-1">{corevalues.title}</h1>
-                <p className="text-center text-th-primary-dark text-base pt-3 font-normal px-4 md:px-20 xl:px-52">
+                <h1 className="font-bold text-th-text-dark text-3xl text-center pb-1">{corevalues.title}</h1>
+                <p className="text-center text-th-text-medium text-base pt-3 font-normal px-4 md:px-20 xl:px-52">
                     {corevalues.subTitle}
                 </p>
             </div>

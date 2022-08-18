@@ -9,8 +9,8 @@ export default function Aboutcard({ src, title, subTitle }) {
                     <Image width="160" height="160" src={src} alt="" />
                 </div>
                 <div className="flex flex-col justify-between p-4 leading-normal bg-th-background md:mx-4 my-4">
-                    <h1 className="mb-2 text-3xl font-bold tracking-tight text-th-primary-dark">{title}</h1>
-                    <p className="mb-3 text-lg font-normaltext-th-primary-dark ">{subTitle}</p>
+                    <h1 className="mb-2 text-3xl font-bold tracking-tight text-th-text-dark">{title}</h1>
+                    <p className="mb-3 text-lg font-normal text-th-text-medium">{subTitle}</p>
                 </div>
             </a>
 

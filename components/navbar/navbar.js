@@ -58,7 +58,7 @@ function BuildMenu({ categories }) {
       target: '/#homeproduct',
       subMenus:
       [
-        {name:"ERP", target:"/products/erp"},
+        {name:"ERP"},
         {name:"Ecommerce"},
         {name:"Digital Marketing"}
       ]

@@ -8,9 +8,9 @@ export default function Missionvission({ src, title, subTitle }) {
                         <div className="h-32 w-32">
                             <Image width="160" height="160" src={src} alt="" /></div>
                     </div>
-                    <div className="px-6 mt-16 ">
-                        <h1 className="font-bold text-3xl text-center pb-1">{title}</h1>
-                        <p className="text-center text-th-primary-dark text-base pt-3 font-normal">{subTitle}</p>
+                    <div className="px-6 mt-16">
+                        <h1 className="font-bold text-3xl text-center text-th-text-dark pb-1">{title}</h1>
+                        <p className="text-center text-th-text-medium text-base pt-3 font-normal">{subTitle}</p>
                         <div className="w-full flex justify-center pt-5 pb-5">
                         </div>
                     </div>
