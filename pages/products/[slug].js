@@ -14,7 +14,7 @@ export default function Products({product, preview})
     <Container>
     <Heroproduct key={product.hero_title} title={product.hero_title} subTitle={product.hero_subTitle} src={product.hero_image} ></Heroproduct>
    <section className="mb-32 bg-gray-50 p-4 text-center">
-    <h2 className="text-3xl text-th-text-dark font-bold mb-20">Why is it so great?</h2>
+    <h2 className="text-3xl text-th-text-dark font-bold mb-20">{product.title}</h2>
     <div className="grid lg:gap-x-12 lg:grid-cols-3">
     <Social key={product.social.title} title={product.social.title} highlight={product.social.highlight} subTitle={product.social.subTitle} ></Social>
     

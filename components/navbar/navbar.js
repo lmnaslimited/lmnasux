@@ -9,7 +9,6 @@ import ToggleMobileMenu from "./toggleMobileMenu";
 import AppContext from '../../context/appContext';
 import Container from "../container";
 import Homeproducts from "../homeproduct";
-import Dropdown from "./dropdown";
 import Industries from "../industries";
 const industries = ['Retail', 'Education', 'Healthcare', 'Distribution', 'Manufacturing', 'Agriculture']
 
@@ -68,15 +67,21 @@ function BuildMenu({ categories }) {
       target: '/#homeindustries',
       subMenus:
       [
-        {name:"ERP"}
-      ]
+        {name:"Manufacturing"},
+        {name:"Retail"},
+        {name:"Distribution"},
+        {name:"Education"},
+        {name:"Healthcare"}
+      ],
     },
     {
       menu: 'Services',
       target: '/#homeservices',
       subMenus:
       [
-        {name:"ERP"}
+        {name:"Finance"},
+        {name:"Hr"},
+        {name:"Payroll"} 
       ]
     },
     {

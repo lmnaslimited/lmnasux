@@ -6,7 +6,7 @@ export default function Social({title, subTitle, highlight}){
           <div className="flex justify-center">
             <div className="p-4 bg-th-background-cta rounded-full shadow-lg inline-block -mt-8">
               <svg
-                className="w-7 h-7 text-white"
+                className="w-7 h-7 text-th-text-light"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
               >

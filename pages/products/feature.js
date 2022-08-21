@@ -6,10 +6,10 @@ export default function Feature({feature_a, feature_b, feature_c}){
           <div className="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0 md:px-6">
             <div className="relative overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg" data-mdb-ripple="true"
               data-mdb-ripple-color="light">
-              <div>
-              <img
+              <div className="w-full rounded-lg shadow-lg">
+              <Image
+              width="1440" height="880"
                   src="/hero/hero-women-1440x880.gif"
-                  className="w-full rounded-lg shadow-lg"
                   alt=""
                 />
               </div>

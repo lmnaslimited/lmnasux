@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Industriescard({ src, title, subTitle, href, linkName }) {
     return (
-        <div className="flex flex-row text-th-primary-dark bg-white rounded-lg">
+        <div className="flex flex-row bg-th-background-secondary rounded-lg">
             <div className="">
                 <Image alt="" width="160" height="160" src={src} />
             </div>
