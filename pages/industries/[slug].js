@@ -10,7 +10,7 @@ export default function Industries({industry, preview})
 {
     return(
       <>
-      <Layout>
+      <Layout meta={industry.industryMeta.meta}>
       <Whylmnas title={industry.hero_title} src={industry.hero_image} point_a={industry.hero_point_a} point_b={industry.hero_point_b} point_c={industry.hero_point_c}></Whylmnas>
         <Container>
         <Subsection_a title={industry.title} subtitle={industry.subtitle} linkName={industry.linkName} image_a={industry.image_a} image_b={industry.image_b}></Subsection_a>

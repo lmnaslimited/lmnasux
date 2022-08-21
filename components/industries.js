@@ -5,8 +5,8 @@ import Industriescard from "./Industriescard"
 export default function Industries({industries}) {
     return (
     <Container>
-      <section className=" my-56 border-2 shadow-lg bg-th-background-primary">
-       <h1 className="text-xl  font-bold text-th-text-dark text-center not-sr-only md:sr-only">{industries.title}</h1>
+      <section className=" my-16 md:my-48 border-2 shadow-lg bg-th-background-primary">
+       <h1 className="text-2xl p-4  font-bold text-th-text-dark text-center shadow-xl not-sr-only md:sr-only">{industries.title}</h1>
           <div className="md:-mt-6 text-center items-center sr-only md:not-sr-only "><button className=" p-2  text-3xl justify-center bg-th-background-secondary font-bold text-center">{industries.title}</button></div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 space-y-8 md:space-y-4 m-2 mt-10 lg:mx-12 lg:my-8 gap-4">

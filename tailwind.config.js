@@ -20,6 +20,7 @@ module.exports = {
         'th-background': 'var(--background)',
         'th-background-primary': 'var(--background-primary)',
         'th-background-secondary': 'var(--background-secondary)',
+        'th-background-highlight': 'var(--background-highlight)',
         'th-background-cta': 'var(--background-cta)',
         'th-foreground': 'var(--foreground)',
         'th-primary-dark': 'var(--primary-dark)',

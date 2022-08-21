@@ -4,7 +4,7 @@ import Pricecard from "./pricecard";
 export default function Homepricing({pricing}) {
     return (
       <Container>
-            <div className=" my-24">
+            <div className=" my-48">
                 <section className="bg-th-background-primary body-font overflow-hidden justify-center items-center">
   <div className=" ">
     <div className="flex flex-col md:flex-row justify-center">

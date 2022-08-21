@@ -9,11 +9,12 @@
   --background: theme('colors.pink.50');
   --background-primary: theme('colors.gray.50');
   --background-secondary: theme('colors.white');
-  --background-cta: theme('colors.blue.500');
+  --background-cta: theme('colors.blue.600');
 
   --text-dark: theme('colors.gray.800');
   --text-medium: theme('colors.gray.500');
   --text-light: theme('colors.white');
+  --text-highlight: theme('colors.blue.600');
 
   --primary-dark: theme('colors.gray.800');
   --primary-medium: theme('colors.purple.500');

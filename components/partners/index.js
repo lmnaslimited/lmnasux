@@ -5,7 +5,7 @@ import Link from "next/link"
 export default function Partner({partner}) {
     return (
     <Container>
-      <section className=" my-24 border-2 bg-th-background-primary">
+      <section className=" my-48 border-2 bg-th-background-primary">
        <h1 className="text-xl  font-bold bg-th-background-secondary text-center not-sr-only md:sr-only">TESTIMONIALS</h1>
           <div className="md:-mt-6 text-center items-center sr-only md:not-sr-only"><button className="text-3xl bg- font-bold justify-center text-center bg-th-background-secondary">TESTIMONIALS</button></div>
         <div className="grid grid-cols-2 gap-4 ">

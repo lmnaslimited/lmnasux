@@ -22,7 +22,7 @@ export default function CollapseMenu({ subMenus }) {
       onClick={() => {
         setCollapse(!collapse);
       }}>
-      <div  ref={dropdown} className="block  lg:inline-block text-th-primary-medium hover:text-th-accent-medium">
+      <div  ref={dropdown} className="block  lg:inline-block text-th-text-dark hover:text-th-text-medium">
         <svg
           className="fill-current h-4 w-4 ml-4 text-th-primary-dark  dark:hover:text-pink-500  hover:text-pink-500"
           xmlns="http://www.w3.org/2000/svg"

@@ -7,7 +7,7 @@ export default function Services({service, preview})
 {
     return(
       <>
-      <Layout>
+      <Layout meta={service.serviceMeta.meta}>
     <Container>
         <Items key={service.title} title={service.title} src={service.image} subTitle={service.subTitle} card_title={service.card_title} ></Items>
     </Container>

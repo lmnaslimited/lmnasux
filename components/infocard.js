@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Infocard({ src, title, subTitle, href, linkName }) {
     return (
-        <div className="flex flex-row m-2 rounded-lg bg-th-background-secondary">
+        <div className="flex flex-row m-2 rounded-lg md:shadow-xl bg-th-background-secondary">
             <div className=" mt-6 ">
                 <Image alt="" width="160" height="160" src={src} />
             </div>
