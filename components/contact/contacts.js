@@ -7,11 +7,11 @@ export default function contacts({contacts}){
       <div className="py-24 xl:mx-auto flex flex-col md:flex-row">
       <div className="grid grid-cols-1 gap-24 shadow-md  mx-4 xl:mx-8 lg:px-40 md:space-y-20 md:space-y-0 p-12">
                       <div className="col-span-1">
-                      <Contactcard key={contacts.contacts.title} title={contacts.contacts[0].title} src={contacts.contacts[0].image} linkName={contacts.contacts[0].linkName} ></Contactcard>
+                      <Contactcard key={contacts.contacts.title} title={contacts.contacts[0].title} src={contacts.contacts[0].image} linkName={contacts.contacts[0].linkName} href={contacts.contacts[0].href} ></Contactcard>
   
                       </div>
                       <div className="col-span-1">
-                      <Contactcard key={contacts.contacts.title} title={contacts.contacts[1].title} src={contacts.contacts[1].image} linkName={contacts.contacts[1].linkName} ></Contactcard>
+                      <Contactcard key={contacts.contacts.title} title={contacts.contacts[1].title} src={contacts.contacts[1].image} linkName={contacts.contacts[1].linkName} href={contacts.contacts[1].href} ></Contactcard>
   
                       </div>
                       </div>

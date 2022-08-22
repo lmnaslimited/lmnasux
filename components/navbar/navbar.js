@@ -22,7 +22,7 @@ const Navbar = ({ categories }) => {
   if (!mounted) return null;
   return (<div className="bg-th-background-primary  ">
     <Container>
-    <nav className="xl:mx-10 2xl:mx-16 flex items-center justify-between flex-wrap py-6 ">
+    <nav className=" flex items-center justify-between flex-wrap py-6 ">
       <Logo />
       {/**Handle Hamburger toggle and set the display MobileMenu AppContext */}
       <ToggleMobileMenu />
@@ -54,34 +54,34 @@ function BuildMenu({ categories }) {
     },
     {
       menu: 'Products',
-      target: '/#homeproduct',
+      target: '',
       subMenus:
       [
-        {name:"ERP"},
-        {name:"Ecommerce"},
-        {name:"Digital Marketing"}
+        {name:"ERP" ,href:"/products/erp"},
+        {name:"Ecommerce",href:"/products/erp"},
+        {name:"Digital Marketing",href:"/products/erp"}
       ]
     },
     {
       menu: 'Industries',
-      target: '/#homeindustries',
+      target: '',
       subMenus:
       [
-        {name:"Manufacturing"},
-        {name:"Retail"},
-        {name:"Distribution"},
-        {name:"Education"},
-        {name:"Healthcare"}
+        {name:"Manufacturing",href:"/industries/manufacturing"},
+        {name:"Retail",href:"/industries/retail"},
+        {name:"Distribution",href:"/industries/distribution"},
+        {name:"Education",href:"/industries/education"},
+        {name:"Healthcare",href:"industries/healthcare"}
       ],
     },
     {
       menu: 'Services',
-      target: '/#homeservices',
+      target: '',
       subMenus:
       [
-        {name:"Finance"},
-        {name:"Hr"},
-        {name:"Payroll"} 
+        {name:"Finance",href:"/services/finance"},
+        {name:"Hr",href:"/services/hr"},
+        {name:"Payroll",href:"/services/payroll"} 
       ]
     },
     {

@@ -9,7 +9,7 @@ export default function Contactcard({src, title, href, linkName}){
                                 </div>
                                 <div className="md:px-6 my-8  w-full ">
                                     <h1 className="font-bold text-xl md:text-3xl text-th-text-dark text-center pb-1 uppercase">{title}</h1>
-                                    <a href="" ><p className="text-center mb-4 text-th-text-medium text-md md:text-lg pt-3 font-normal">{linkName}</p></a>
+                                    <a href={href} ><p className="text-center mb-4 text-th-text-medium text-md md:text-lg pt-3 font-normal">{linkName}</p></a>
                                     
                             </div>
                   </div>

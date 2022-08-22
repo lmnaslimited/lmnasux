@@ -4,7 +4,7 @@ import Infocard from "./infocard"
 export default function Homeproducts({ products }) {
     return ( 
         <Container>
-            <section id="product" className=" mt-12 md:mt-48 mb-48 bg-th-background-primary">
+            <section id="product" className="hover:translate-y-4  mt-12 md:mt-48 mb-48 bg-th-background-primary">
                 <div className="items-center lg:mt-12 not-sr-only lg:sr-only">
                     <h1 className="text-2xl text-center md:text-3xl font-bold md:font-sans md:pt-0 md:mt-12 lg:ml-12 text-center shadow-xl p-4 antialiased uppercase">{products.title}</h1>
                 </div>

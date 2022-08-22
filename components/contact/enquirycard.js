@@ -11,7 +11,7 @@ export default function Enquirycard({title, subTitle, src, linkName, href}){
                                         <h1 className="font-bold text-th-text-dark text-xl md:text-3xl text-center pb-1 uppercase">{title}</h1>
                                         <p className="text-center mb-4 text-th-text-medium text-md md:text-lg pt-3 font-normal">{subTitle}</p>
                                         <div className="flex items-center justify-center">
-                                            <button className=" md:ml-32 text-center justify-center p-1 bg-th-background-cta  md:px-4 md:py-2 text-md lg:text-xl font-normal text-th-text-light">{linkName}</button>
+                                          <a href={href}> <button className=" text-center justify-center p-1 bg-th-background-cta  md:px-4 md:py-2 text-md lg:text-xl font-normal text-th-text-light">{linkName}</button></a>
                                             <div className="pl-2">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
                                                     <path d="M13.1719 12L8.22192 7.04999L9.63592 5.63599L15.9999 12L9.63592 18.364L8.22192 16.95L13.1719 12Z" fill="#D53F8C" />
