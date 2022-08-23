@@ -8,10 +8,10 @@ import { getContactPageData } from "../lib/api";
 export default function Contactus({contactData}) {
     return (
       <div>
-         <Layout meta={contactData.contactMeta.meta}>
+         <Layout meta={contactData.contacts.contactMeta}>
   <Container>
     <Contacts contacts={contactData.contacts} ></Contacts>
-   <Enquiry enquiry={contactData.enquiry}></Enquiry>
+   <Enquiry contacts={contactData.contacts}></Enquiry>
     
   </Container>
          </Layout>

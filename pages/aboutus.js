@@ -8,11 +8,11 @@ import Corevalues from '../components/about/corevalues';
 export default function Aboutus({aboutData}) {
   return (
     <>
-      <Layout meta={aboutData.aboutMeta.meta}>
+      <Layout meta={aboutData.abouts.aboutMeta}>
         <Container>
           <Abouts abouts={aboutData.abouts.abouts} ></Abouts>
-          <Ourgoal ourgoal={aboutData.ourgoal.ourgoal} ></Ourgoal>
-          <Corevalues corevalues={aboutData.corevalues} ></Corevalues>
+          <Ourgoal abouts={aboutData.abouts} ></Ourgoal>
+          <Corevalues abouts={aboutData.abouts} ></Corevalues>
         </Container>
       </Layout>
     </>

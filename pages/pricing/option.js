@@ -9,7 +9,7 @@ export default function Option({price_title, price_subTitle, linkName, href}){
         <div role="listitem" className="bg-th-background-secondary cursor-pointer shadow-lg rounded-lg p-8 relative z-30 mt-7">
                     <div className="md:flex items-center justify-between mb-4">
                         <h2 className="text-2xl uppercase font-bold leading-6 text-th-text-dark">{price_title}</h2>
-                        <button aria-label="show menu" onClick={() => setshow1(!show1)} className="mt-4 md:mt-1 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 py-2.5 px-2 bg-gray-800 text-white hover:text-gray-400">
+                        <button aria-label="show menu" onClick={() => setshow1(!show1)} className="mt-4 md:mt-1 py-2.5 px-2 bg-gray-800 text-white hover:text-gray-400">
                             <svg className={`fill-stroke ${show1 ? "block" : "hidden"}`} width={6} height={6} viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9 5L5 1L1 5" stroke="currentColor" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>

@@ -1,7 +1,6 @@
 import Footer from './footer/footer'
 import Meta from './meta'
 import Navbar from './navbar/navbar'
-import { getFooterPageData } from '../lib/api'
 export default function Layout({ children, meta, footerData}) {
   return (
     <>
@@ -16,11 +15,3 @@ export default function Layout({ children, meta, footerData}) {
     </>
   )
 }
-export async function getStaticProps() {
-  const footerData = await getFooterPageData()
-  return{ 
-    props: { footerData}
-  }
-}
-
-  
