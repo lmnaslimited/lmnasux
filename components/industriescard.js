@@ -18,7 +18,7 @@ export default function Industriescard({ src, title, subTitle, href, linkName })
                     </p>
                 </div>
                 <div>
-               <Link passHref={href}><button className="text-md font-normal shadow-lg text-th-text-light px-4 py-1 mt-2 ml-4 bg-th-background-cta">{linkName}</button></Link>
+            <a href={href}><button className="text-md font-normal shadow-lg text-th-text-light px-4 py-1 mt-2 ml-4 bg-th-background-cta">{linkName}</button></a>
                 </div>
             </div>
         </div>

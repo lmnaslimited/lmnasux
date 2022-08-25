@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Container from "./container"
 import Link from "next/link"
-import Industriescard from "./Industriescard"
+import Industriescard from './industriescard'
 export default function Industries({industries}) {
     return (
     <Container>
