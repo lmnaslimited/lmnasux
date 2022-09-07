@@ -6,7 +6,7 @@ import Option from "./option";
 export default function pricing({price, preview})
 {
     return(
-      <>
+      
       <Layout meta={price.priceMeta.meta}>
     <Container>
     <div className="xl:mx-auto xl:container py-20 2xl:px-0 px-6">
@@ -33,7 +33,7 @@ export default function pricing({price, preview})
     </Container>
       </Layout>
 
-    </>
+    
     )
 }
 export async function getStaticProps({ params, preview = null }) {

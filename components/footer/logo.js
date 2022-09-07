@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Logo({}){
     return(
-        <>
+        
         <div className="flex flex-col flex-shrink-0 col-span-2 md:col-span-1 mb-10 md:mb-0 md:-mt-5 items-center">
                     <div className="flex flex-row">
                         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -64,6 +64,6 @@ export default function Logo({}){
         </a>
                     </div>
                 </div>
-        </>
+        
     )
 }

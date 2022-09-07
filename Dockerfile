@@ -1,33 +1,64 @@
-# Install dependencies only when needed
-FROM node:16-alpine AS deps
-# Check https://github.com/nodejs/docker-node/tree/b4117f9333da4138b03a546ec926ef50a31506c3#nodealpine to understand why libc6-compat might be needed.
-RUN apk add --no-cache libc6-compat
+# Double-container Dockerfile for separated build process.
+# If you're just copy-pasting this, don't forget a .dockerignore!
+
+# We're starting with the same base image, but we're declaring
+# that this block outputs an image called DEPS that we
+# won't be deploying - it just installs our Yarn deps
+FROM node:16-alpine3.16 AS deps
+
+# If you need libc for any of your deps, uncomment this line:
+# RUN apk add --no-cache libc6-compat
+
+# Copy over ONLY the package.json and yarn.lock
+# so that this `yarn install` layer is only recomputed
+# if these dependency files change. Nice speed hack!
+
+WORKDIR /app
+COPY package.json yarn.lock ./
+RUN npm install --frozwn-lockfile
+
+# END DEPS IMAGE
+
+# Now we make a container to handle our Build
+FROM node:16-alpine3.16 AS BUILD_IMAGE
+
+# Set up our work directory again
 WORKDIR /app
 
-# Rebuild the source code only when needed
-FROM node:16-alpine AS builder
-WORKDIR /app
+# Bring over the deps we installed and now also
+# the rest of the source code to build the Next
+# server for production
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+RUN npm run build
 
-# Production image, copy all the files and run next
-FROM node:16-alpine AS runner
-WORKDIR /app
+# Remove all the development dependencies since we don't
+# need them to run the actual server.
+# END OF BUILD_IMAGE
+
+# This starts our application's run image - the final output of build.
+FROM node:16-alpine3.16
 
 ENV NODE_ENV production
-# Uncomment the following line in case you want to disable telemetry during runtime.
-# ENV NEXT_TELEMETRY_DISABLED 1
 
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
+RUN addgroup -g 1001 -S nodejs
+RUN adduser -S nextjs -u 1001
 
-COPY --from=builder /app/public ./public
+# Pull the built files out of BUILD_IMAGE - we need:
+# 1. the package.json and yarn.lock
+# 2. the Next build output and static files
+# 3. the node_modules.
+WORKDIR /app
+COPY --from=BUILD_IMAGE --chown=nextjs:nodejs /app/package.json /app/yarn.lock ./
+COPY --from=BUILD_IMAGE --chown=nextjs:nodejs /app/node_modules ./node_modules
+COPY --from=BUILD_IMAGE --chown=nextjs:nodejs /app/public ./public
+COPY --from=BUILD_IMAGE --chown=nextjs:nodejs /app/.next ./.next
 
+# 4. OPTIONALLY the next.config.js, if your app has one
+# COPY --from=BUILD_IMAGE --chown=nextjs:nodejs /app/next.config.js  ./
 
 USER nextjs
 
 EXPOSE 3000
 
-ENV PORT 3000
-
-CMD ["npm", "start"]
+CMD [ "npm", "start" ]

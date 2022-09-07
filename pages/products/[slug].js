@@ -9,7 +9,7 @@ import Subsection from "./subsection";
 export default function Products({product, preview})
 {
     return(
-      <>
+      
       <Layout  meta={product.productMeta.meta}>
     <Container>
     <Heroproduct key={product.hero_title} title={product.hero_title} subTitle={product.hero_subTitle} src={product.hero_image} ></Heroproduct>
@@ -40,7 +40,7 @@ export default function Products({product, preview})
     </Container>
       </Layout>
 
-    </>
+    
     )
 }
 export async function getStaticProps({ params, preview = null }) {

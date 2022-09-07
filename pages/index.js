@@ -12,7 +12,7 @@ import Head from 'next/head';
 
 export default function Home({homeData}) {
   return (
-    <>
+    
       <Layout meta={homeData.homeMeta.meta} >
         <Head>
           <title>{homeData.title}</title>
@@ -26,7 +26,7 @@ export default function Home({homeData}) {
           <Partners partner={homeData.partner}/>
         </Container>
       </Layout>
-    </>
+    
   )
 }
 

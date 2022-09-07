@@ -1,0 +1,24 @@
+name: lmnasux
+ 
+on:
+  push:
+     branches: [develop]
+
+
+jobs: 
+  lintTest:
+     name: Lint
+     runs-on: ubuntu-latest
+     steps:
+        -name: Clone Repository
+         uses: actions/ceckout@v2
+        -name: Install Dependencies
+         run:
+           echo "Running Installing Dependencies..."
+           npm install
+        -name: Run Linting
+         run: |
+           echo "Running Linting Tests.."
+           npm run lint
+         env:
+           CI

@@ -7,7 +7,7 @@ import Corevalues from '../components/about/corevalues';
 
 export default function Aboutus({aboutData}) {
   return (
-    <>
+    
       <Layout meta={aboutData.abouts.aboutMeta}>
         <Container>
           <Abouts abouts={aboutData.abouts.abouts} ></Abouts>
@@ -15,7 +15,7 @@ export default function Aboutus({aboutData}) {
           <Corevalues abouts={aboutData.abouts} ></Corevalues>
         </Container>
       </Layout>
-    </>
+    
   )
 }
 

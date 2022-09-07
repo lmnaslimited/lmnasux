@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Updates({}){
     return(
-        <>
+      <div>
         <div className="mt-10 lg:mt-0 lg:ml-12 xl:ml-0 lg:block hidden">
                     <label className="text-xl font-medium leading-5 text-th-text-light">Get updates</label>
                     <div className="cursor-pointer flex items-center justify-between border border-th-text-dark mt-4">
@@ -28,7 +28,6 @@ export default function Updates({}){
                     </div>
                     </div>
                     </div>
-            
-        </>
+                    </div>
     )
 }

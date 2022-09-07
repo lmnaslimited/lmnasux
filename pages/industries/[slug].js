@@ -9,7 +9,7 @@ import Subsection_c from "./subsection_c";
 export default function Industries({industry, preview})
 {
     return(
-      <>
+      
       <Layout meta={industry.industryMeta.meta}>
       <Whylmnas title={industry.hero_title} src={industry.hero_image} point_a={industry.hero_point_a} point_b={industry.hero_point_b} point_c={industry.hero_point_c}></Whylmnas>
         <Container>
@@ -22,7 +22,7 @@ export default function Industries({industry, preview})
     </Container>
       </Layout>
 
-    </>
+    
     )
 }
 export async function getStaticProps({ params, preview = null }) {

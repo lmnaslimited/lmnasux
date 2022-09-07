@@ -42,7 +42,7 @@ export default function Meta({meta}) {
           )
         })
           :
-          <>
+          <div>
             <meta
 
               name="description"
@@ -53,7 +53,9 @@ export default function Meta({meta}) {
               name="author"
               content="LMNAs"
             />
-          </>
+      </div>
+
+          
       }
       
      {/**<meta property="og:image" content={HOME_OG_IMAGE_URL} /> */}  
