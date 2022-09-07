@@ -21,4 +21,5 @@ jobs:
            echo "Running Linting Tests.."
            npm run lint
          env:
-           CI
+           CI: true
+          
