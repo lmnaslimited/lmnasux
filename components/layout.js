@@ -1,4 +1,5 @@
 import Footer from './footer/footer'
+/**layout */
 import Meta from './meta'
 import Navbar from './navbar/navbar'
 export default function Layout({ children, meta, footerData}) {
