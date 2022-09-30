@@ -11,7 +11,7 @@
     "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
-    "next": "12.1.0",
+    "next": "latest",
     "next-themes": "^0.1.1",
     "pure-react-carousel": "^1.28.1",
     "react": "17.0.2",
