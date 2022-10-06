@@ -2,7 +2,7 @@ name: ci
 on:
   push:
     branches:
-      - 'develop'
+      - 'docker'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,7 +23,7 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
-          context: .
-          file: ./Dockerfile
+          context: ../../
+          dockerfile: docker/development/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/lmnasux:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/lmnasux:dev
